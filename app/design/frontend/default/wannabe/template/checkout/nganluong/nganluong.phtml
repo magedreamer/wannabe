@@ -1,0 +1,10 @@
+ <?php 
+
+ $order = Mage::getModel('sales/order')->loadByIncrementId($this->getOrderId());
+  if ($order->getPayment()->getMethod() == "nganluong")
+  {
+  ?>
+       <p>
+	   <?php echo $this->__('<strong>Hãy Click vào đây để thanh toán trực tuyến an toàn qua NgânLượng.vn</strong><br>') ?>
+        <a href="<?php echo $this->thanhtoannganluong();?>" target="new" title="NgânLượng.vn: Hỗ trợ thanh toán trực tuyến AN TOÀN bằng thẻ các ngân hàng trong &amp; ngoài nước; Được bảo hộ &amp; cấp phép bởi NGÂN HÀNG NHÀ NƯỚC VIỆT NAM; Ví điện tử DUY NHẤT được cộng đồng bình chọn ƯA THÍCH NHẤT 2 năm liên tiếp."><img src="https://www.nganluong.vn/data/images/merchant/button/btn-buynow-125.png"></a></p>
+   <?php } ?> 

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tools_Swatch>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Tools_Swatch>
+    </modules>
+</config> 

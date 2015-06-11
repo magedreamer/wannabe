@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <tools translate="title" module="banner">
+            <title>Wannabe Tools</title>
+            <sort_order>71</sort_order>
+            <children>
+                <banner module="banner">
+                    <title>Banner</title>
+                    <sort_order>75</sort_order>
+                    <children>
+                        <banner module="banner">
+                            <title>Manage Banners</title>
+                            <sort_order>0</sort_order>
+                            <action>banner/adminhtml_banner</action>
+                        </banner>
+                        <bannergroup module="banner">
+                            <title>Manage Banner Groups</title>
+                            <sort_order>1</sort_order>
+                            <action>banner/adminhtml_bannergroup</action>
+                        </bannergroup>
+                        <bannersetting module="banner">
+                            <title>Settings</title>
+                            <sort_order>2</sort_order>
+                            <action>adminhtml/system_config/edit/section/banner</action>
+                        </bannersetting>
+                    </children>
+                </banner>
+            </children>
+        </tools>
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin module="customerorder" translate="title">
+                <children>
+                    <tools translate="title">
+                        <title>Tools Module</title>
+			<sort_order>10</sort_order>
+			<children>
+                            <banner translate="title">
+                                <title>Banner</title>
+                                <sort_order>70</sort_order>
+                                <children>
+                                    <banner translate="title">
+                                        <title>Manage Banners</title>
+                                        <sort_order>0</sort_order>
+                                    </banner>
+                                    <bannergroup translate="title">
+                                        <title>Manage Banner Groups</title>
+                                        <sort_order>1</sort_order>
+                                    </bannergroup>
+                                    <bannersetting translate="title">
+                                        <title>Settings</title>
+                                        <sort_order>2</sort_order>
+                                    </bannersetting>
+                                </children>
+                            </banner>
+                        </children>
+                    </tools>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <banner>
+                                        <title>Banner Settings</title>
+                                    </banner>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

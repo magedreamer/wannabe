@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * @category   Tools
+ * @package    Tools_Search
+ * @author     duc.lieu
+ */
+ -->
+<config>
+    <modules>
+        <Tools_Search>
+            <version>0.1.0</version>
+        </Tools_Search>
+    </modules>
+    <frontend>
+        <routers>
+            <search>
+                <use>standard</use>
+                <args>
+                    <module>Tools_Search</module>
+                    <frontName>search</frontName>
+                </args>
+            </search>
+        </routers>
+        <layout>
+            <updates>
+                <search>
+                    <file>search.xml</file>
+                </search>
+                <awadvancedsearch module="awadvancedsearch">
+                    <file>re_awadvancedsearch.xml</file>
+                </awadvancedsearch>
+            </updates>
+        </layout>
+    </frontend>
+    <admin>
+        <routers>
+			<search>
+				<use>admin</use>
+				<args>
+					<module>Tools_Search</module>
+					<frontName>search</frontName>
+				</args>
+			</search>
+        </routers>
+    </admin>
+    <adminhtml>
+		<menu>
+			<tools translate="title" module="search">
+				<title>Wannabe Tools</title>
+				<sort_order>71</sort_order>               
+				<children>
+					<search translate="title" module="search">
+						<title>Amazon Search</title>
+						<sort_order>0</sort_order>
+						<children>
+							<search_normal  translate="title" module="search">
+								<title>Normal Search</title>
+								<sort_order>0</sort_order>
+								<action>search/adminhtml_search</action>
+							</search_normal>
+							<autodownload translate="title" module="search">
+								<title>Autodownload Products</title>
+								<sort_order>1</sort_order>
+								<action>search/adminhtml_autodownload</action>
+							</autodownload>
+						</children>
+					</search>
+				</children>
+			</tools>
+		</menu>
+		<acl>
+			<resources>
+				<all>
+					<title>Allow Everything</title>
+				</all>
+				<admin translate="title" module="search">
+					<children>
+						<tools translate="title">
+							<title>Tools Module</title>
+							<sort_order>10</sort_order>
+							<children>
+								<search translate="title">
+									<title>Amazon Search</title>
+									<sort_order>1</sort_order>
+									<children>
+										<search_normal translate="title">
+											<title>Normal Search</title>
+											<sort_order>0</sort_order>
+										</search_normal>
+										<autodownload translate="title">
+											<title>Autodownload Products</title>
+											<sort_order>1</sort_order>
+										</autodownload>
+									</children>
+								</search>
+							</children>
+						</tools>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+		<layout>
+			<updates>
+				<search>
+					<file>search_amazon.xml</file>
+				</search>
+			</updates>
+		</layout>
+    </adminhtml>   
+    <global>
+        <models>
+            <search>
+                <class>Tools_Search_Model</class>
+                <resourceModel>search_mysql4</resourceModel>
+            </search>
+            <search_mysql4>
+                <class>Tools_Search_Model_Mysql4</class>
+                <entities>
+                    <search>
+                        <table>tools_search</table>
+                    </search>
+                    <autodownload>
+                    	<table>tools_search_download</table>
+                    </autodownload>
+                </entities>
+            </search_mysql4>
+            
+            <awadvancedsearch>
+                <rewrite>
+                    <engine_sphinx>Tools_Search_Model_Engine_Sphinx</engine_sphinx>
+                    <engine_sphinx_abstract>Tools_Search_Model_Engine_Sphinx_Abstract</engine_sphinx_abstract>
+                    <engine_sphinx_cms_pages>Tools_Search_Model_Engine_Sphinx_Cms_Pages</engine_sphinx_cms_pages>
+                    <engine_sphinx_awblog>Tools_Search_Model_Engine_Sphinx_Awblog</engine_sphinx_awblog>
+                    <engine_sphinx_awkbase>Tools_Search_Model_Engine_Sphinx_Awkbase</engine_sphinx_awkbase>
+                    <engine_sphinx_catalog>Tools_Search_Model_Engine_Sphinx_Catalog</engine_sphinx_catalog>
+                    <layer>Tools_Search_Model_Layer</layer>
+                </rewrite>
+            </awadvancedsearch>
+            
+        </models>
+        <resources>
+            <search_setup>
+                <setup>
+                    <module>Tools_Search</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </search_setup>
+            <search_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </search_write>
+            <search_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </search_read>
+        </resources>
+        <blocks>
+            <search>
+                <class>Tools_Search_Block</class>
+            </search>
+            <awadvancedsearch>
+                <rewrite>
+                    <result>Tools_Search_Block_Advancedsearch_Result</result>
+                </rewrite>
+            </awadvancedsearch>
+        </blocks>
+        <helpers>
+            <search>
+                <class>Tools_Search_Helper</class>
+            </search>
+            <catalogsearch>
+                <rewrite></rewrite>
+                <drewrite>
+                    <data>Tools_Search_Helper_Catalogsearch</data>
+                </drewrite>
+            </catalogsearch>
+            <catalogSearch>
+                <rewrite></rewrite>
+                <drewrite>
+                    <data>Tools_Search_Helper_Catalogsearch</data>
+                </drewrite>
+            </catalogSearch>
+        </helpers>
+    </global>
+     <!--<crontab>
+        <jobs>
+           <tools_search_autodownload>
+                <schedule><cron_expr>*/4 * * * *</cron_expr></schedule>
+                <run><model>search/observer::autodownload</model></run>
+            </tools_search_autodownload>
+        </jobs>
+	</crontab>-->
+</config>

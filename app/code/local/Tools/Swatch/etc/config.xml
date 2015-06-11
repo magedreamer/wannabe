@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<config>
+   <modules>
+        <Tools_Swatch>
+            <version>0.1.0</version>
+        </Tools_Swatch>
+   </modules>
+
+   <frontend>
+       <routers>
+           <swatch>
+               <use>standard</use>
+               <args>
+                   <module>Tools_Swatch</module>
+                   <frontName>swatch</frontName>
+               </args>
+           </swatch>
+       </routers>
+
+       <layout>
+            <updates>
+                <swatch>
+                    <file>swatch.xml</file>
+                </swatch>
+            </updates>
+        </layout>
+
+        <translate>
+            <modules>
+                <Tools_Swatch>
+                    <files>
+                        <default>Tools_Swatch.csv</default>
+                    </files>
+                </Tools_Swatch>
+            </modules>
+    	</translate>
+        
+   </frontend>
+
+   <admin>
+        <routers>
+            <swatch>
+                <use>admin</use>
+                <args>
+                    <module>Tools_Swatch</module>
+                    <frontName>swatch</frontName>
+                </args>
+            </swatch>
+        </routers>
+   </admin>
+   <adminhtml>
+       <layout>
+            <updates>
+                <swatch>
+                    <file>swatch.xml</file>
+                </swatch>
+            </updates>
+       </layout>
+       <translate>
+            <modules>
+                <Tools_Swatch>
+                    <files>
+                        <default>Tools_Swatch.csv</default>
+                    </files>
+                </Tools_Swatch>
+            </modules>
+      </translate>
+   </adminhtml>
+
+    <global>
+        <blocks>
+            <swatch>
+                <class>Tools_Swatch_Block</class>
+            </swatch>
+        </blocks>
+
+        <models>
+            <swatch>
+                <class>Tools_Swatch_Model</class>
+                <resourceModel>swatch_mysql4</resourceModel>
+            </swatch>
+            <swatch_mysql4>
+                <class>Tools_Swatch_Model_Mysql4</class>
+                <entities>
+                    <swatch>
+                        <table>tools_swatch</table>
+                    </swatch>
+                    <option>
+                        <table>eav_attribute_option</table>
+                    </option>
+                </entities>
+            </swatch_mysql4>
+        </models>
+
+        <resources>
+            <swatch_setup>
+                <setup>
+                    <module>Tools_Swatch</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </swatch_setup>
+
+            <swatch_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </swatch_write>
+
+            <swatch_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </swatch_read>
+        </resources>
+
+         <helpers>
+            <swatch>
+                <class>Tools_Swatch_Helper</class>
+            </swatch>
+        </helpers>
+        
+    </global>
+
+</config>

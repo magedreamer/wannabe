@@ -1,0 +1,46 @@
+<?php
+    $bannerGroupCode = $this->getBannerGroupCode();
+    //$data = $this->getDataByGroupCode($bannerGroupCode);
+$data = $this->getGroupCodeData();
+    $bannerGroupData = $data['group_data'];
+    $bannerData = $data['banner_data'];
+    $mediaDir = Mage::getBaseDir('media');
+    $mediaUrl = $this->getMediaUrlPath();
+    $bannerdest = (($bannerGroupData->getLinkTarget() == 0) ? '_blank' : '_self');
+    $i=0;$html='';
+?>
+
+<div id="myslider">
+    <div class="scroller">
+	<div class="content">
+            <?php foreach($bannerData as $banner):
+                $bannerType = $banner->getBannerType();
+                if ($bannerType == 0) :
+                     if($banner->getFilename() != '' && @file_exists($mediaDir . DS . $banner->getFilename())):
+                       $bannerImage = $this->getResizeImage($banner->getFilename(), $bannerGroupCode, $bannerGroupData->getBannerWidth(), $bannerGroupData->getBannerHeight());
+		        $eventSlide = '_gaq.push([\'_trackPageview\',\'/banner-viewslides/home_slide/'.$banner->getTitle().'\']);';
+                       $html .= '<a onclick="'.$eventSlide.'" title="'.$banner->getTitle().'" href="#section'.$i.'">'.$banner->getTitle().'</a>';
+            ?>
+                        <div id="section<?php echo $i?>" class="sectionslide">
+			<?php $event = '_gaq.push([\'_trackPageview\',\'/banner-clickslide/home_slide/'.$banner->getTitle().'\']);'; ?>
+                            <a onclick="<?php echo $event; ?>" href="<?php echo $banner->getLink()?>" target="<?php echo $bannerdest?>">
+                                <img title="<?php echo $banner->getTitle()?>" src="<?php echo $bannerImage?>" alt="<?php echo $banner->getTitle()?>" width="<?php echo $bannerGroupData->getBannerWidth()?>px" height="<?php echo $bannerGroupData->getBannerHeight()?>px" />
+                            </a>
+                        </div>
+                        <?php $i++;?>
+                    <?php endif;?>
+                <?php endif;?>
+            <?php endforeach;?>
+	</div>
+    </div>
+    <div class="slidercontrolwr">
+	<div class="slidercontrol">
+            <?php echo $html?>
+	</div>
+    </div>
+</div
+<script src="http://wanna.com/magento/skin/frontend/default/wannabe/js/productInfo.js" type="text/javascript"></script>
+<script src="http://wanna.com/magento/skin/frontend/default/wannabe/js/glider.js" type="text/javascript"></script>
+<script type="text/javascript">// <![CDATA[
+	var myglider = new Glider('myslider', {duration:0.5, autoGlide: true, frequency: 6, initialSection: 'section0'});
+// ]]></script>

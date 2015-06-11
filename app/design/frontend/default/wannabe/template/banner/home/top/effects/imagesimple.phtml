@@ -1,0 +1,28 @@
+<?php
+
+$bannerGroupCode = $this->getBannerGroupCode();
+//$data = $this->getDataByGroupCode($bannerGroupCode);
+$data = $this->getGroupCodeData();
+$bannerGroupData = $data['group_data'];
+$bannerData = $data['banner_data'];
+$mediaDir = Mage::getBaseDir('media');
+$bannerdest = (($bannerGroupData->getLinkTarget() == 0) ? '_blank' : '_self');
+
+if(count($bannerData)>0):
+    echo '<div class="clear home-mid-banner">';
+    foreach ($bannerData as $banner):
+        $bannerType = $banner->getBannerType();
+        if ($bannerType == 1) : // banner type HTML
+            echo '<div' . $banner->getBannerContent().'</div>';
+        else:
+            if($banner->getFilename() != '' && @file_exists($mediaDir . DS . $banner->getFilename())):
+                $bannerImage = $this->getResizeImage($banner->getFilename(), $bannerGroupCode, $bannerGroupData->getBannerWidth(), $bannerGroupData->getBannerHeight());
+                echo '<a target="'.$bannerdest.'" title="'.$banner->getTitle().'" href="'.$banner->getLink().'">';
+                  echo '<img title="'.$banner->getTitle().'" alt="'.$banner->getTitle().'" src="'.$bannerImage.'" ></a>';
+              //  echo '<img width="'.$bannerGroupData->getBannerWidth().'px" style="border: 0px none;" title="'.$banner->getTitle().'" alt="'.$banner->getTitle().'" src="'.$bannerImage.'"></a>';
+            endif;
+        endif;
+    endforeach;
+    echo "</div>";
+endif;
+?>

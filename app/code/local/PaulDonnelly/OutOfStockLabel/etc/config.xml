@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <PaulDonnelly_OutOfStockLabel>
+            <version>1.0</version>
+        </PaulDonnelly_OutOfStockLabel>
+    </modules>
+               
+    <global>
+        <blocks>
+            <catalog>
+                <rewrite>
+                    <product_view_type_configurable>PaulDonnelly_OutOfStockLabel_Block_Configurable</product_view_type_configurable>
+                </rewrite>
+            </catalog>
+        </blocks>
+    </global>
+               
+</config>

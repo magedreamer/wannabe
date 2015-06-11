@@ -1,0 +1,7 @@
+<?php
+	$order = Mage::getModel('sales/order')->loadByIncrementId($this->getOrderId());
+	if ($order->getPayment()->getMethod() == "baokim") {
+	$this->ktcheckout();
+?>
+    <a href="<?php echo $this->thanhtoanbaokim();?>" target="new"><img src="https://www.baokim.vn/application/uploads/buttons/btn_safety_payment_3.png"></a>
+<?php }?>

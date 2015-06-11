@@ -1,0 +1,38 @@
+<?php
+ 
+    $bannerGroupCode = $this->getBannerGroupCode();
+    //$data = $this->getDataByGroupCode($bannerGroupCode);
+$data = $this->getGroupCodeData();
+    $bannerGroupData = $data['group_data'];
+    $bannerData = $data['banner_data'];
+    $mediaDir = Mage::getBaseDir('media');
+    $mediaUrl = $this->getMediaUrlPath();
+    $bannerdest = (($bannerGroupData->getLinkTarget() == 0) ? '_blank' : '_self');
+    $i=0;$html='';
+?>
+
+<div class="iosSlider"><!-- slider -->
+
+<div class="slider"><!-- slides -->
+            <?php foreach($bannerData as $banner):
+                $bannerType = $banner->getBannerType();
+                if ($bannerType == 0) :
+                     if($banner->getFilename() != '' && @file_exists($mediaDir . DS . $banner->getFilename())):
+                       $bannerImage = $this->getResizeImage($banner->getFilename(), $bannerGroupCode, $bannerGroupData->getBannerWidth(), $bannerGroupData->getBannerHeight());
+		        $eventSlide = 'alert(0);';
+                       $html .= '<a title="'.$banner->getTitle().'" href="#section'.$i.'">'.$banner->getTitle().'</a>';
+            ?>
+                        <div id="section<?php echo $i?>" class="slide">
+
+                            <a href="<?php echo $banner->getLink()?>" target="<?php echo $bannerdest?>">
+                                <img  class="royalImage" title="<?php echo $banner->getTitle()?>" src="<?php echo $bannerImage?>" alt="<?php echo $banner->getTitle()?>" width="<?php echo $bannerGroupData->getBannerWidth()?>px" height="<?php echo $bannerGroupData->getBannerHeight()?>px" />
+                            </a>
+                        </div>
+               
+                        <?php $i++;?>
+                    <?php endif;?>
+                <?php endif;?>
+            <?php endforeach;?>
+	</div>
+<div class="prev">&nbsp;</div>
+<div class="next">&nbsp;</div></div>

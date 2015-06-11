@@ -1,0 +1,55 @@
+#nav { position: relative; width: 960px; margin: 0 auto;}
+
+/* All Levels */ /* Style consistent throughout all nav levels */
+#nav li { text-align:left;	}
+#nav li.over { z-index:998;}
+#nav li.over.parent {  }
+#nav a,
+#nav a:hover { display:block; line-height:16px; text-decoration:none; }
+#nav span { display:block; cursor:pointer; white-space:nowrap; }
+#nav li ul span { white-space:normal; }
+#nav a { float:left; }
+.blocklist li,
+#nav ul.chield > li { display:block; float:left; padding: 0 10px 0 0; }
+#nav .chield { width: 928px; border:1px solid #fa0d88; border-top: none; }
+/* 1st Level */
+#nav ul li.parent { }
+#nav ul li.last { padding-bottom:0; }
+#nav ul li.active { }
+#nav ul a,
+#nav ul a:hover { float:none; background:none; }
+#nav ul a:hover { text-decoration:underline; }
+#nav > li > ul > li > a { }
+.blocklist li.parent > a span,
+#nav > li > ul > li.parent > a span { font-size: 16px;}
+#nav ul li a { font-weight:normal; }
+
+/* 2nd Level */
+#nav  ul,
+#nav div { top: 40px; left:-10000px; padding:3px 0 15px; background:#ffe9f5; font-size:12px; }
+.blocklist li,
+#nav > li > ul >li { width: 133px; margin:0 10px 0 0; }
+#nav div ul { position:static; width:auto; border:none; padding:0; }
+
+#nav ul.level0 { position:absolute; z-index: 1500; padding: 15px; }
+
+/* ========================== */
+#nav > li > ul > li ul { margin-left:0px; }
+.blocklist > li > ul > li,
+#nav > li > ul > li ul > li { padding-left: 0px; margin: 6px 0 6px 0; background: transparent !important; }
+.blocklist > li > ul > li { margin:2px 0 2px 0; }
+
+/* ========================== */
+
+/* 3rd+ Level */
+#nav ul ul,
+#nav ul div { top:5px; padding: 10px 0px 5px; }
+
+
+/* Show menu */
+#nav li ul.shown-sub,
+#nav li div.shown-sub { left:0; z-index:999; }
+#nav li .shown-sub ul.shown-sub,
+#nav li .shown-sub li div.shown-sub { left:100px; }
+/********** Navigation > */
+/* ======================================================================================= */

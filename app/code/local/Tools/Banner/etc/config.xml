@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Unicode Systems
+ * @category   Uni
+ * @package    Uni_Banner
+ * @copyright  Copyright (c) 2010-2011 Unicode Systems. (http://www.unicodesystems.in)
+ * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <Tools_Banner>
+            <version>0.3.0</version>
+        </Tools_Banner>
+    </modules>
+    <frontend>
+        <routers>
+            <banner>
+                <use>standard</use>
+                <args>
+                    <module>Tools_Banner</module>
+                    <frontName>banner</frontName>
+                </args>
+            </banner>
+        </routers>
+        <layout>
+            <updates>
+                <banner>
+                    <file>banner.xml</file>
+                </banner>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <Tools_Banner>
+                    <files>
+                        <default>Tools_Banner.csv</default>
+                    </files>
+                </Tools_Banner>
+            </modules>
+        </translate>
+    </frontend>
+     
+    <admin>
+        <routers>
+            <banner>
+                <use>admin</use>
+                <args>
+                    <module>Tools_Banner</module>
+                    <frontName>banner</frontName>
+                </args>
+            </banner>
+        </routers>
+    </admin>
+    
+    <adminhtml>
+        <layout>
+            <updates>
+                <banner>
+                    <file>banner.xml</file>
+                </banner>
+            </updates>
+        </layout>
+    </adminhtml>
+    <global>
+        <models>
+            <banner>
+                <class>Tools_Banner_Model</class>
+                <resourceModel>banner_mysql4</resourceModel>
+            </banner>
+            <banner_mysql4>
+                <class>Tools_Banner_Model_Mysql4</class>
+                <entities>
+                    <banner>
+                        <table>tools_banner</table>
+                    </banner>
+                    <bannergroup>
+                        <table>tools_bannergroup</table>
+                    </bannergroup>
+                </entities>
+            </banner_mysql4>
+        </models>
+        <blocks>
+            <banner>
+                <class>Tools_Banner_Block</class>
+            </banner>            
+        </blocks>
+        <helpers>
+            <banner>
+                <class>Tools_Banner_Helper</class>
+            </banner>
+        </helpers>
+        <resources>
+            <banner_setup>
+                <setup>
+                    <module>Tools_Banner</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </banner_setup>
+            <banner_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </banner_write>
+            <banner_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </banner_read>
+        </resources>
+        <cache>
+            <types>
+                <tools_banner translate="label,description" module="banner">
+                    <label>Tools Banner Cache</label>
+                    <description>Cache Banner Block....</description>
+                    <tags>tools_banner</tags>
+                </tools_banner>
+            </types>
+        </cache>
+    </global>
+    <default>
+        <banner>
+            <banner>
+                <banner_time_delay>3000</banner_time_delay>
+		<banner_autoplay>1</banner_autoplay>
+            </banner>
+        </banner>
+    </default>
+</config>

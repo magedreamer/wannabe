@@ -1,0 +1,657 @@
+﻿# of Use,# của sử dụng
+%1$s incl tax.,%1$s bao gồm thuế.
+%s - %s,%s - %s
+%s Item(s),%s sản phẩm
+(Copy data from: %s),(Sao chép dữ liệu từ: %s)
+(Will make search for the query above return results for this search.),(Sẽ tìm cho truy vấn trên để trả lại cho việc tìm kiếm này.)
+* Required Fields,* Trường bắt buộc
+-- Please Select --,-- Vui lòng lựa chọn --
+A name is required,Yêu cầu điền tên
+ALL GROUPS,Tất cả các nhóm
+Action,Thực hiện
+Add Attribute,Thêm thuộc tính
+Add Design Change,Thêm thay đổi thiết kế
+Add Group,Thêm nhóm
+Add Items to Cart,Thêm items vào giỏ hàng
+Add New,Thêm mới
+Add New Attribute,Thêm thuộc tính mới
+Add New Attribute Set,Thêm thiết lập thuộc tính (Attribute Set)
+Add New Group,Thêm nhóm mới
+Add New Images,Thêm các ảnh mới
+Add New Option,Thêm tùy chọn mới
+Add New Row,Thêm dòng mới
+Add New Search Term,Thêm từ khóa tìm kiếm mới
+Add New Set,Thêm thiết lập mới
+Add Option,Thêm tùy chọn
+Add Product,Thêm sản phẩm
+Add Product To Websites,Thêm sản phẩm và trang web
+Add Root Category,Thêm danh mục gốc
+Add Subcategory,Thêm danh mục con
+Add Tax,Thêm thuế
+Add Tier,Thêm tầng (Tier)
+Add to Cart,Thêm vào giỏ hàng
+Add to Compare,Thêm vào so sánh
+Add to My Wishlist,Thêm vào danh sách ưa thích của tôi
+Add to Wishlist,Thêm vào danh sách ưa thích
+Additional Information,Thông tin thêm
+All,Thông tin thêm
+All Product Types,Tất cả các loại sản phẩm
+All products of this set will be deleted! Are you sure you want to delete this attribute set?,Tất cả Sản phẩm của thiết lập nà sẽ bị xóa! Bạn có chắc chắn muốn xóa thuộc tính thiết lập này?
+Apply To,Áp dụng cho
+Apply To Configurable/Grouped Product,Áp dụng cho có thể cấu hình được/Sản phẩm được nhóm
+Approved,Approved
+Are you sure you want to delete this category?,Bạn có chắc chắn muốn xóa danh mục này?
+Are you sure you would like to remove all item from compare products?,Bạn có chắc chắn muốn xóa tất cả item trong so sánh các sản phẩm?
+Are you sure you would like to remove this item from the compare products?,Bạn có chắc chắn muốn bỏ item này ra khỏi so sánh các sản phẩm?
+Are you sure?,Bạn có chắc chắn?
+As low as:,Thấp như:
+Assign,Gán
+Assign product link,Gán liên kết (link)cho sản phẩm
+Assign product to category,Gán sản phẩm vào danh mục
+Assigned Products,Sản phẩm được gán
+Associated Products,Các sản phẩm phù hợp
+Attrib. Set Name,Tên thiết lập thuộc tính
+Attribute Code,Mã thuộc tính
+Attribute Information,Thông tin thuộc tính
+Attribute Label,Nhãn thuộc tính
+Attribute Model,Hình thức thuộc tính
+Attribute Name:,Tên thuộc tính:
+Attribute Properties,Đặc tính của thuộc tính
+Attribute Set,Thiết lập thuộc tính
+Attribute group with the \/name/\ name already exists,Nhóm thuộc tính với tên \/name/\ đã tồn tại.
+Attribute model not defined,Hình thức thuộc tính ko được định nghĩa
+Attribute with the same code already exists,Thuộc tính với mã như trên đã tồn tại
+Attributes,Các thuộc tính
+Attrribute names can be specified per store.,Không thể chỉ rõ tên thuộc tính cho một kho hàng (store) .
+Autogenerate,Tự động sinh
+"Availability","Có hàng"
+"Availability: In stock.","Có hàng."
+"Availability: Out of stock.","Hết hàng."
+Back,Trở lại
+Backend Model,Backend Model
+Backend Table,Backend Table
+Backend Table Title,Backend Table Title
+Backorders,Backorders
+Banner,Quảng cáo
+Base directory to upload image file is not specified,Thư mục để upload ảnh chưa được khai báo
+Based On,Dựa trên
+Bestseller Products,Sản phẩm bán chạy
+Best Value,Giá trị tốt nhất
+Block after Info Column,Khối sau cột thông tin
+Bottom/Left,Dưới cùng/Trái
+Bottom/Right,Dưới cùng/Phải
+Browse By,Tìm theo
+Buy %1$s for %2$s,Mua %1$s cho %2$s
+Buy %1$s for %2$s (%3$s incl. tax) each,Mua %1$s cho %2$s (%3$s Bgồm thuế) cho mỗi SP
+Buy %1$s for %2$s each,Mua %1$s cho %2$s mỗi
+Can be used only with catalog input type Dropdown,Chỉ có thể sử dụng được với loại nhập catalog dạng xổ xuống (Dropdown)
+"Can be used only with catalog input type Dropdown, Multiple Select and Price","Chỉ có thể sử dụng được với loại nhập catalog dạng xổ xuống (Dropdown), Đa lựa chọn cùng với giá"
+Can\'t create image.,Không thể khởi tạo ảnh.
+Cart Item Attribute,Thuộc tính item giỏ hàng
+Catalog,Catalog
+Catalog Input Type for Store Owner,Loại nhập Catalog cho chủ sở hữu kho hàng (Store Owner)
+Catalog Price Scope,Khoảng giá Catalog
+Catalog Section,Lựa chọn Catalog
+"Catalog, Search","catalog, Tìm kiếm"
+Categories,Các danh mục
+Categories Sitemap,Sơ đồ các danh mục
+Category,Danh mục
+Category API,Danh mục api
+Category Data,Dữ liệu danh mục
+Category List,Danh mục sản phẩm
+Category Navigation:,Danh mục navigation:
+Category Products,Danh mục các sản phẩm
+Category Top Navigation,Danh mục top navigation
+Category URL Suffix,Danh mục url suffix
+Category attributes API,Các thuộc tính danh mục api
+Category delete error,Lỗi xóa danh mục
+"Category deleted","Đã xóa danh mục"
+Category move error,Lỗi di chuyển danh mục
+Category must be instance of Mage_Catalog_Model_Category,Danh mục must be instance of mage_catalog_model_Danh mục
+Category saved,Danh mục đã lưu
+Change,Thay đổi
+Change or Retrieve attribute store view,Thay đổi hoặc nhận thuộc tính store view
+Change status,Thay đổi các trạng thái
+Choose an Option...,Chọn một tùy chọn...
+Choose option...,Chọn lựa chọn...
+Clear All,Xóa tất cả
+Clear All Items,Xóa tất cả các sản phẩm
+"Close Window","Đóng cửa sổ"
+Collapse All,Thu gọn tất cả
+Comparable,Có thể so sánh
+Comparable on Front-end,Có thể so sánh trên Front-end
+Compare Items,So sánh các item
+Compare Products,So sánh các sản phẩm
+Compare Products - %d Items,So sánh các sản phẩm - %d các item
+Compare Products List,So sánh danh sách sản phẩm
+Compare list successfully cleared,Danh sách so sánh đã đươc xóa
+Conditions Combination,Tổ hợp các điều kiện
+Configurable Product,Sản phẩm có thể cấu hình được
+Configurable Product Settings,Thiết lập sản phẩm có thể cấu hình được
+Continue,Tiếp tục
+Copy From Configurable,Sao lưu từ có thể cấu hình
+Country/State,Country/State
+Create,Khởi tạo
+Create (Upload),Khởi tạo (upload)
+Create Empty,Khởi tạo trống
+Create Product Settings,khởi tạo thiết lập sản phẩm
+Create Simple Associated Product,Khởi tạo simple associated sản phẩm
+Create new category,Khởi tạo danh mục mới
+Create new product,khởi tạo sản phẩm mới
+Cross-sells,Cross-sells
+Currently Shopping by,Mua hàng ngay bằng
+Custom Design,Tùy biến thiết kế
+Custom Options,Tùy biến các tùy chọn
+Customer Group,Nhóm khách hàng
+Customers Reviews,Các đánh giá của khách hàng
+Customers Tagged Product,Sản phẩm được khách hàng tag
+Customers for alert %s was successfuly added to queue,Thông báo khách hàng %s đã được thêm vào hàng đợi thành công
+Data Type for Saving in Database,Loại dữ liệu để lưu vào CSDL
+Date,Ngày
+Date Subscribed,Date Subscribed
+Datetime,Ngày giờ
+Decimal,Thập phân
+Decimal Number,Số thập phân
+Declare attribute value saving scope,Khai báo khoảng lưu giá trị thuộc tính
+Default Qty,Số lượng mặc định
+Default values,Các giá trị mặc định
+Default price,Giá mặc định
+Default value,Giá trị mặc định
+Delete,Xóa
+Delete Attribute,Xóa thuộc tính
+Delete Attribute Set,Xóa thiết lập thuộc tính (Attribute Set)
+Delete Category,Xóa danh mục
+Delete Option,Xóa tùy chọn
+Delete Row,Xóa dòng
+Delete Search,Xóa tìm kiếm
+Delete Selected Group,Xóa nhóm đã được chọn
+Delete category,Xóa danh mục
+Delete product,Xóa sản phẩm
+Design,Thiết kế
+Disabled,Tắt
+Display in Suggested Terms,Hiển thị trong cụm từ được gợi ý
+Double click on a group to rename it,Nháy đúp vào một nhóm để thay đổi tên nhóm
+Double click on above image to view full picture,Nháy đúp vào ảnh để xem ảnh lớn
+Downloadable Product,Sản phẩm có thể tải về
+Dropdown,Xổ xuống
+Duplicate,Trùng
+Duplicate website tier price customer group and quantity.,Duplicate website tier price customer group and quantity.
+"Duplicate website, country and state tax found.","Duplicate website, country and state tax found."
+Edit,Soạn
+Edit Attribute Set '%s',Chỉnh sửa thiết lập thuộc tính '%s'
+Edit Product Attribute,Chỉnh sửa thuộc tính Sản phẩm
+"Edit Product Attribute ""%s""","Chỉnh sửa thuộc tính Sản phẩm ""%s"""
+"Edit Search","Chỉnh sửa tìm kiếm"
+"Edit Search '%s'","Chỉnh sủa tìm kiếm '%s'"
+Email,Email
+"Email to a Friend","Email cho bạn bè về sản phẩm này"
+Empty,Trống
+Enabled,Bật
+Error during retrieval of option value: %s,Lỗi khi nhận giá trị tùy chọn: %s
+Error while adding customers for %s alert. Message: %s,Lỗi khi thêm thông báo khách hàng %s . message: %s
+Error while saving this group. Group with the same name already exists.,Lỗi khi lưu nhóm này. Nhóm với cùng tên đã tồn tại.
+Error while saving this group. Please try again later.,Lỗi khi lưu nhóm. Vui lòng thử lại sau.
+Exclude,Loại trừ
+Expand All,Mở rộng tất cả
+Failed,Hỏng
+Failed to move file: %s,Không thể di chuyển file: %s
+Feature Products,Các sản phẩm đặc biệt
+File Extension,File Extension
+Filter model name must be declared,Tên kiểu lọc phải được khai báo
+Filter must be as object. Set correct filter please,Bộ lọc phải là object. Vui lòng thiết lập bộ lọc chính xác
+Filterable (no results),Có thể lọc (không có kết quả nào)
+Filterable (with results),Có thể lọc (với các kết quả)
+Filters must be as array,Các bộ lọc phải là mảng (array)
+First Name,Họ
+"Fixed","Được cố định"
+"For internal use. Must be unique with no spaces","Để sử dụng nội bộ. Phải là tên không có khoảng trắng (cách)"
+For reindex enabled product(s) you need specify store or product,for reindex enabled Sản phẩm(s) you need specify store or Sản phẩm
+Frontend,Frontend
+Frontend Model,Kiểu Frontend
+Frontend Properties,Thuộc tính Frontend
+Gallery,Gallery
+General Information,Thông tin chung
+Get special price,Lấy giá đặc biệt
+"Gifts detail","Thông tin về quà tặng"
+Global,Global
+Globally Editable,Có thể chỉnh sửa toàn cục
+"Go to Home Page","Đến trang chủ"
+"Grid","Lưới"
+"Grouped Product","Sản phẩm được nhóm"
+"Groups","Các nhóm"
+"Home Page","Trang chủ"
+ID,ID
+ID: %s,ID: %s
+if you do not specify an option value for a store then the Mặc định value will be used.,Nếu bạn không khai báo giá trị tùy chọn cho một kho hàng giá mặc định sẽ được sử dụng để gán.
+Image,Ảnh
+Image Size,Kích thước ảnh
+Image content is not valid base64 data.,Nội dung ảnh không sử dụng dạng dữ liệu base64.
+Image file not found,Không tìm thấy ảnh
+Image not exists,Không tồn tại ảnh
+Image not specified.,Ảnh không được khai báo.
+Image type and information need to be specified for each store view.,Thông tin ảnh và loại ảnh cần được khai báo cho mỗi store view.
+In Month,Trong tháng
+"In Stock","Có hàng"
+In Week,Trong tuần
+"In stock","Có hàng"
+"In stock.",Có hàng.
+"In Stock: ","Có hàng: "
+Incl. Tax,Bgồm thuế
+Input Type,Loại nhập
+Input Validation for Store Owner,Input Validation for Store Owner
+Integer,Số nguyên
+Integer Number,Số nguyên
+Invalid Tier Prices,Các lớp giá không đúng
+"Invalid attribute option specified for attribute %s (%s), skipping the record","Tùy chọn thuộc tính không chính xác cho thuộc tính %s (%s), bỏ qua phần này"
+"Invalid attribute set specified, skipping the record","Thiết lập thuộc tính không chính xác, bỏ qua phần này"
+Invalid block: %s,Khối không chính xác: %s
+Invalid category,Danh mục không đúng
+Invalid category IDs,ID danh mục không đúng
+Invalid image file type,Loại file ảnh không đúng
+Invalid image type.,Loại file ảnh không đúng.
+"Invalid option id specified for %s (%s), skipping the record","Tùy chọn ID không đúng cho %s (%s), bỏ qua phần này"
+"Invalid product type specified, skipping the record","Loại sản phẩm chỉ định không đúng, bỏ qua phần này"
+Invalid store specified,Kho hàng được chỉ định ko đúng
+"Invalid store specified, skipping the record","Kho hàng được chỉ định không đúng, bỏ qua phần này"
+Inventory,Inventory
+is Default,là mặc định
+Is Required,là bắt buộc
+Items %s to %s of %s total,Các item %s tới %s của %s tổng số
+Items that you don't want to show in the catalog or search results should have status 'Disabled' in the desired store.,Item mà bạn không muốn hiển thị trong catalog hoặc kết quả tìm kiếm sẽ có trạng thái 'Tắt' trong khong hàng.
+Label,Nhãn
+Last Name,Tên
+Last Notification,Thông báo cuối
+Learn More,Xem thêm
+"Length of text is too long","Đoạn văn bản quá dài"
+Letters,Các ký tự
+Letters(a-zA-Z) or Numbers(0-9),Các ký tự(a-zA-Z) Hoặc các số (0-9)
+"Line %d, Email: %s","Dòng %d, Email: %s"
+"Line %d, SKU: %s","Dòng %d, SKU: %s"
+"Link (Related, Up sell, Cross sell)","Liên kết (Có liên quan, Up sell, Cross sell)"
+Link product not exists.,Liên kết sản phẩm không tồn tại.
+"List","Danh sách"
+"List Price:","Giá bán:"
+"List Mode","Kiểu danh sách"
+Manage Attribute Sets,Quản lý các thiết lập thuộc tính (Attribute Set)
+Manage Attributes,Quản lý các thuộc tính
+Manage Catalog Categories,Quản lý các danh mục catalog
+Manage Categories,Quản lý danh mục
+Manage Label / Options,Quản lý nhãn (label) / Các tùy chọn
+Manage Options (values of your attribute),Quản lý các tùy chọn (Giá trị của thuộc tính)
+Manage Product Attributes,Quản lý các thuộc tính sản phẩm
+Manage Product Sets,Quản lý các thiết lập sản phẩm
+Manage Products,Quản lý sản phẩm
+Manage Stock,Quản lý lưu kho
+"Manage Titles (Size, Color, etc.)","Quản lý các tiêu đề (Kích thước, Màu sắc, vv.)"
+"Manufacturer","Sản xuất"
+"Market Price:","Giá thị trường:"
+"Max Characters","Số ký tự tối đa"
+"Maximal Depth","Độ sâu tối đa"
+Maximum Qty Allowed in Shopping Cart,Số lượng tối đa được phép trong giỏ hàng
+Maximum number of characters,Số lượng tối đa của ký tự
+Media Image,Ảnh
+Minimum Qty Allowed in Shopping Cart,Số lượng tối thiểu được phép trong giỏ hàng
+Minimum Qty for Item\'s Status to be Out of Stock,Số lượng tối thiểu cho item item thông báo là hết hàng
+"Missing SKU, skipping the record","Thiếu SKU, bỏ qua phần này"
+More Views,Xem thêm
+Move,Di chuyển
+Move category in tree,Di chuyển danh mục trong cây
+Multiple Select,Lựa chọn nhiều
+Name,Tên
+Name In %s,Tên trong %s
+Name<br/>(For internal use),Tên<br/>(sử dụng nội bộ)
+New Category,Danh mục mới
+New Product,Sản phẩm mới
+New Product Attribute,Thuộc tính sản phẩm mới
+New Products,Các sản phẩm mới
+New Search,Tìm kiếm mới
+New Set Name,Tên mới cho thiết lập
+Next,Tiếp
+No,Không
+No image,Không có ảnh
+No layout updates,Không cập nhật layout
+No options of this product are available.,Không có tùy chọn của sản phẩm.
+No product collections found,Không có collection sản phẩm được tìm thấy
+None,Không có
+Not shared with other products,Không được chia sẻ với sản phẩm khác
+Notify Low Stock RSS,Thông báo sắp hết hàng bằng RSS
+Notify for Quantity Below,Thông báo khi số lượng sản phẩm còn lại
+Nowhere,Nowhere
+Number of Uses,Số lượng sử dụng
+Number of results<br/>(For last time placed),Số kết quả<br/>(Cho lần thay thế gần nhất)
+OR,Hoặc
+Old Price:,Giá cũ:
+Option:,Tùy chọn:
+Options Control,Tùy chọn (Options) Control
+Options is required,Tùy chọn là bắt buộc
+Our customer service is available 24/7. Call us at (800) DEMO-NUMBER.,Dịch vụ chăm sóc khách hàng vào tất cả các ngày (24/7). Gọi chúng tôi theo số (800) demo-number.
+"Out of Stock","Hết hàng"
+"Out of stock","Hết hàng"
+"Out of stock.","Hết hàng."
+"Our Price:","Giá:"
+Page Title Separator,Phân cách tiêu đề trang
+Page:,Trang:
+Parent Category,Danh mục cha
+"Pending","Đang chờ xét"
+Pending Reviews RSS,Theo dõi các đánh giá đang chờ xét bằng RSS
+Percentage,Phần trăm
+Please add rows to option.,Vui lòng thêm dòng cho tùy chọn.
+Please be careful as once you click on the row it will load package data form the selected file and all unsaved form data will be lost.,"Bạn hãy cẩn thận khi click chuột và dòng, thao tác này sẽ tải dữ liệu từ file và các dữ liệu chưa lưu sẽ bị mất."
+Please click on Close Window button if it won\'t be closed automatically,"Vui lòng click vào nút đóng cửa sổ, thao tác không tự động đóng"
+Please enter a new group name,Vui lòng nhập tên nhóm mới
+"Please refresh ""Catalog Rewrites"" and ""Layered Navigation Indices"" in System -> <a href=""%s"">Cache Management</a>","Vui lòng refresh ""catalog rewrites"" and ""layered navigation indices"" in system -> <a href=""%s"">cache management</a>"
+Please select  items,Vui lòng lựa chọn các item
+Please select one or more attributes.,Vui lòng lựa chọn một hoặc nhiều thuộc tính.
+Please select product(s),vui lòng lựa chọn sản phẩm
+Please select products for attributes update,vui lòng lựa chọn các sản phẩm để cập nhật thuộc tính
+Please select static block ...,Vui lòng lựa chọn khối (block) tĩnh ...
+Please specify the product option(s),Vui lòng chỉ rõ tùy chọn của sản phẩm
+Please specify the product required option(s),Vui lòng chỉ rõ các tùy chọn bắt buộc cho sản phẩm
+Please specify the product(s) quantity,Vui lòng chỉ rõ số lượng sản phẩm
+Position,Vị trí
+Position In Layered Navigation,Vị trí trong Layered Navigation
+Position of attribute in layered navigation block,Vị trí của thuộc tính trong khối layered navigation
+Prev,Trước
+Previous,Trước
+Price,Giá
+Price Type,Loại giá
+Price values for options should be specified in system base currency.,Giá để lựa chọn phải chỉ rõ trong hệ thống đơn vị tiền tệ.
+Price:,Giá:
+Print This Page,In trang này
+"Problem saving the collection, aborting. Error: %s","Có lỗi khi đang lưu collection, hủy bỏ. Lỗi: %s"
+Product,Sản phẩm
+Product %s successfully added to compare list,Sản phẩm %s đã được thêm vào danh sách so sánh
+Product %s successfully removed from compare list,Sản phẩm %s đã được xóa khỏi danh sách so sánh
+Product API,Sản phẩm api
+Product Alerts,Thông báo sản phẩm
+Product Attribute,Thuộc tính sản phẩm
+Product Attributes,Các thuộc tính sản phẩm
+Product Categories,Các danh mục sản phẩm
+Product Description,Mô tả sản phẩm
+Product Image Placeholders,Vị trí đặt ảnh sản phẩm
+Product Image Watermarks,Watermarks cho ảnh sản phẩm
+Product Images,Các ảnh sản phẩm
+Product Images API,API ảnh sản phẩm
+Product In Websites,Sản phẩm trên websites
+Product Info Column,Cột thông tin sản phẩm
+Product Information,Thông tin sản phẩm
+Product Name,Tên sản phẩm
+Product Reviews,Các đánh giá sản phẩm
+Product Tags,Tags sản phẩm
+Product Tier Price API,API lớp giá của sản phẩm
+Product Type,Loại sản phẩm
+Product URL Suffix,Sản phẩm url suffix
+Product attribute sets API,API các thiết lập thuộc tính sản phẩm
+Product attribute was successfully deleted,Thuộc tính sản phẩm đã được xóa
+Product attribute was successfully saved,Thuộc tính sản phẩm đã được lưu thành công
+Product attributes API,API các thuộc tính sản phẩm
+Product collection expected,Sản phẩm collection expected
+Product deleted,Sản phẩm đã được xóa
+Product duplicated,Sản phẩm bị trùng
+Product has required options,Sản phẩm bắt buộc phải có tùy chọn
+"Product links API (related, cross sells, up sells)","API link sản phẩm (related, cross sells, up sells)"
+Product saving error.,Lỗi lưu sản phẩm.
+Product saving error.,Lỗi lưu sản phẩm.
+Product types API,API các loại sản phẩm
+Product was successfully created.,Sản phẩm đã được khởi tạo thành công.
+Product was successfully saved.,Sản phẩm đã được lưu
+Product with this combination of attributes already associated to configurable.,Sản phẩm với tập hợn các thuộc tính đã được liên kết để có thể cấu hình.
+Products,Sản phẩm
+Products Information,Thông tin sản phẩm
+Products Reviews,Các đánh giá sản phẩm
+Products Sitemap,Sơ đồ các sản phẩm
+Products only,Chỉ các sản phẩm
+products per page on grid default value,Giá trị mặc định số sản phẩm trên một trang theo dạng lưới
+Products per Page on List allowed values,Số lượng các sản phẩm được phép hiển thị theo dạng danh sách trên một trang
+products per page on list Mặc định value,Số lượng mặc định các sản phẩm trên một trang hiển thị theo dạng danh sách
+Products per page on Grid allowed values,Số lượng sản phẩm được phép hiển thị theo dạng lưới trên một trang
+Properties,Các đặc tính
+Qty,Số lượng
+Qty Uses Decimals,Số lượng thập phập phân sử dụng
+Qty for Item\'s Status to become Out of Stock,Số lượng của item để thông báo hết hàng
+Quick Create,Tạo nhanh
+Quick Overview,Xem nhanh
+Quick simple product creation,Tạo sản phẩm đơn giản nhanh
+"Records for ""","Bản ghi cho """
+Redirect,Redirect
+Redirect URL,Redirect URL
+Regular Price:,Giá bán:
+Related Products,Các sản phẩm liên quan
+Remove,Xóa
+Remove Product,Xóa sản phẩm
+Remove Product From Websites,Xóa sản phẩm trên websites
+Remove This Item,Xóa item này
+Remove product assignment,Xóa gán sản phẩm
+Remove product image,Xóa ảnh sản phẩm
+Remove product link,Xóa link sản phẩm
+Required,Bắt buộc
+Reset,Reset
+Results,Các kết quả
+Retrieve attribute data,Nhận dữ liệu về thuộc tính
+Retrieve attribute list,Nhận về danh sách thuộc tính
+Retrieve attribute options,Nhận về các tùy chọn thuộc tính
+Retrieve categories tree,Nhận về cây danh mục
+Retrieve category attributes,Nhận về các thuộc tính danh mục
+Retrieve category data,Nhận về dữ liệu danh mục
+Retrieve hierarchical tree,Nhận về cấu trúc cây
+Retrieve linked products,Nhận về các sản phẩm được liên kết
+Retrieve list of assigned products,Nhận về danh sách các sản phẩm được gán
+Retrieve one level of categories by website/store view/parent category,Nhận về một cấp của các danh mục website/store view/danh mục cha
+Retrieve product,Nhận về sản phẩm
+Retrieve product attribute sets,Nhận về thiết lập thuộc tính sản phẩm sản phẩm
+Retrieve product image,Nhận về ảnh sản phẩm
+Retrieve product image list,Nhận về danh sách sản phẩm
+Retrieve product image types,Nhận về các loại ảnh sản phẩm
+Retrieve product link type attributes,Nhận về liên kết loại thuộc tính sản phẩm
+Retrieve product link types,Nhận về liên kết loại sản phẩm
+Retrieve product tier prices,Nhận về lớp giá sản phẩm
+Retrieve product types,Nhận về các loại sản phẩm
+Retrieve products data,Nhận về dữ liệu các sản phẩm
+Retrieve products list by filters,Nhận về danh sách các sản phẩm bằng bộ lọc (filter)
+"Review successfully deleted","Đánh giá đã được xóa"
+"Review was saved successfully","Đánh giá đã được lưu"
+"Review was successfully saved","Đánh giá đã được lưu"
+Reviews,Các đánh giá
+Roll Over for preview,Kéo để xem trước
+Root,Gốc
+SKU,SKU
+Save,Lưu
+Save And Continue Edit,Lưu và tiếp tục chỉnh sửa
+Save Attribute,Lưu thuộc tính
+Save Attribute Set,Lưu thiết lập thuộc tính
+Save Category,Lưu danh mục
+Save Search,lưu Tìm kiếm
+"Saved","Đã được lưu"
+Scope,Phạm vi
+Search,Tìm kiếm
+Search Engine Optimizations,Tối ưu hóa tìm kiếm
+Search Information,Thông tin tìm kiếm
+Search Query,Truy vấn tìm kiếm
+Search Term was successfully saved,Từ khóa tìm kiếm đã được lưu
+Search Term with such search query already exist.,Tìm kiếm với truy vấn trên đã tồn tại.
+Search was successfully deleted,Tìm kiếm đã được xóa
+Searchable,Có thể tìm kiếm
+Select Configurable Attributes,Lựa chọn các thuộc tính có thể cấu hình
+Select type of option,Lựa chọn loại tùy chọn
+Select type options required values rows.,Lựa chọn giá trị của dòng loại tùy chọn bắt buộc
+Selected Product Types,Các loại sản phẩm được lựa chọn
+Selected configuration is not available.,Cấu hình được lựa chọn không tồn tại
+"Send Count","Đến số gửi"
+Set Ascending Direction,Xếp theo chiều tăng dần
+Set Descending Direction,Xếp theo chiều giảm dần
+"Set Name","Đặt tên"
+Set Root Category For Store,Thiết lập danh mục gốc cho kho hàng
+"Set root category for this store in the <a href=""%s"">configuration</a>","Thiết lập gốc danh mục cho kho hàng này trong <a href=""%s"">cấu hình</a>"
+"Set special price","Đặt giá đặc biệt"
+"Set/Get current store view","Đặt/lấy store view hiện tại"
+Settings,Các thiết lập
+Shop by,Mua theo
+Shopping Options,Tùy chọn mua hàng
+Show,Hiển thị
+Show Details,Hiển thị chi tiết
+Show Tags,Hiển thị Tags
+Simple Product,Sản phẩm đơn giản
+Site Map,Sơ đồ trang
+"Skip import row, is not valid value ""%s"" for field ""%s""","Bỏ qua nhập dòng giá trị ""%s"" không hợp lệ cho trường ""%s"""
+"Skip import row, required field ""%s"" for new customer not defined","Bỏ qua nhập dòng, trường bặt buộc ""%s"" cho khách hàng mới chưa được định nghĩa"
+"Skip import row, required field ""%s"" for new products not defined","Bỏ qua nhập dòng, trường bặt buộc ""%s"" cho sản phẩm mới chưa được định nghĩa"
+"Skip import row, required field ""%s"" not defined","Bỏ qua nhập dòng, trường bặt buộc ""%s"" chưa được định nghĩa"
+"Skip import row, store ""%s"" field not exists","Bỏ qua nhập dòng, trường ""%s"" trong kho hàng không tồn tại"
+Sort Order,Xắp xếp đơn hàng
+Sort by,Xếp theo
+Sort By,Xếp Theo
+Source Model,Kiểu nguồn
+Special Price:,Khuyến Mãi:
+Starting at:,Bắt đầu với:
+Static,Tĩnh
+Static block and products,Khối tĩnh và sản phẩm
+Static block only,Chỉ khối tĩnh
+Status,Trạng thái
+Stock Availability,Còn hàng
+Store,Kho hàng
+Store View,Store View
+Stretch,Stretch
+Subscribe to RSS Feed,Nhận RSS feed
+Super product attributes configuration,Thiết lập thuộc tính sản phẩm cao nhất
+Synonym For,Synonym For
+Synonym for,Synonym for
+System,Hệ thống
+"System Properties","Đặc tính hệ thống"
+Tag Name,Tên Tag
+Tax,Thuế
+Text,Văn bản
+Text Area,Vùng văn bản (Text Area)
+Text Field,Trường văn bản (text)
+"The product %s has been added to comparison list.","Sản phẩm %s đã được thêm vào danh sách so sánh."
+There are no %s available.,Không còn %s.
+There are no customers for this alert,Không có khách hàng nào cho thông báo này
+There are no products matching the selection.,Không sản phẩm nào phù hợp với lựa chọn
+There was an error while adding products to websites,Có lỗi khi thêm sản phẩm vào website
+There was an error while cleared compare list,Có lỗi khi xóa danh sách so sánh
+There was an error while removing products from websites,Có lỗi xảy ra khi bỏ sản phẩm từ websites
+There was an error while updating product(s) attributes,Có lỗi xảy ra khi cập nhật thuộc tính sản phẩm
+There was an error while updating product(s) status,Có lỗi xảy ra khi cập nhật trạng thái sản phẩm
+This attribute no longer exists,Thuộc tính này không còn tồn tại
+"This group contains attributes, used in configurable products. Please move these attributes to another group and try again.",Nhóm này bao gồm các thuộc tính được sử dụng trong sản phẩm có thể cấu hình. Vui lòng di chuyển các thuộc tính này đến nhóm khác và thử lại.
+This group contains system attributes. Please move system attributes to another group and try again.,Nhóm này bao gồm các thuộc tính hệ thống. Vui lòng di chuyển các thuộc tính này đến nhóm khác và thử lại.
+This search no longer exists,Tìm kiếm không còn tồn tại
+Tier Pricing,Lớp giá
+Tile,Tile
+Time,Thời gian
+Title,Tiêu đề
+"Top","Đầu trang"
+Top/Left,Trên/Trái
+Top/Right,Trên/Phải
+Total Qty Base Items,Tổng số số lượng trên các sản phẩm
+Total incl. Tax: %1$s,Tổng cộng bao gồm thuế: %1$s
+Total of %d record(s) were successfully deleted,Tổng số %d kết quả đã được xóa
+Total of %d record(s) were successfully updated,Tổng số %d kết quả đã được cập nhật
+Type,Loại
+Unable to complete request. Please try again later.,Không thể hoàn tất yêu cầu. Vui lòng thử lại.
+Unable to find a search term to delete,Không thể tìm từ khóa để xóa
+Unable to find an attribute to delete,Không thể tìm thuộc tính để xóa
+Unable to get product id.,Không thể lấy ID sản phẩm.
+Unassigned Attributes,Bỏ gán thuộc tính
+Unique Value,Giá trị duy nhất
+Unique Value (not shared with other products),Giá trị duy nhất (Không được dùng chung với các sản phẩm khác)
+Unknown attribute: %s,Thuộc tính không xác định: %s
+Up-sells,Up-sells
+Update,Cập nhật
+Update Attributes,Cập nhật các thuộc tính
+Update Tier Price,Cập nhật lớp giá
+Update assigned product,Cập nhật sản phẩm được gán
+Update attributes,Cập nhật các thuộc tính
+Update category,Cập nhật danh mục
+Update product,Cập nhật sản phẩm
+Update product image,Cập nhật ảnh sản phẩm
+Update product link,Cập nhật liên kết (link) sản phẩm
+Update product tier prices,Cập nhật lớp (tier) giá sản phẩm
+Upload new product image,upload ảnh mới của sản phẩm
+Url,Url
+Url Rewrite Management,Quản lý Url Rewrite
+Url rewrie save problem.,Lỗi lưu url rewrie.
+Use Config Settings,Sử dụng thiết lập cấu hình
+use default value,Sử dụng giá trị mặc định
+Use In Layered Navigation,Sử dụng trong Layered Navigation
+Use In Layered Navigation<br/>(Can be used only with catalog input type 'Dropdown'),Sử dụng trong Layered Navigation<br/>(Chỉ được sử dụng với nhập catalog đạng xổ xuống (Dropdown))
+Use In Search Results Layered Navigation,Sử dụng trong kết quả tìm kiếm layered navigation
+Use To Create Configurable Product,Sử dụng để khởi tạo sản phẩm có thể cấu hình
+Use categories path for product URLs,Sử dụng các danh mục cho urls sản phẩm
+Use in advanced search,Sử dụng trong tìm kiếm nâng cao
+Use in quick search,Sử dụng trong tìm nhanh
+Values Required,Các giá trị bắt buộc
+Varchar,Varchar
+View as,Xem như
+Virtual Product,Sản phẩm ảo
+Visibility,Khả năng hiển thị
+Visible,Có thể hiện thị
+Visible on Catalog Pages on Front-end,Có thể hiển thị các trang catalog trên Front-end
+Watermark,Watermark
+watermark Mặc định size,Kích thước mặc định watermark
+Watermark Position,Vị trí watermark
+Website,Website
+Websites,Websites
+Yes,Có
+Yes/No,Có/Không
+You cannot delete this attribute,Bạn không thể xóa thuộc tính này
+You cannot edit this attribute,Bạn không thể chỉnh sửa thuộc tính này
+You cannot remove system attribute from this set.,Bạn không thể bỏ thuộc tính hệ thống từ thiết lập này.
+You cannot update this attribute,Bạn không thể cập nhật thuộc tính này
+You have no items to compare.,Không có sản phẩm để so sánh.
+"You may also be interested in the following product(s)","Có thể bạn cũng quan tâm tới những sản phẩm này".
+"You Save:","Tiết kiệm:"
+Zoom In,Phóng to
+Zoom Out,Thu nhỏ
+[GLOBAL],[GLOBAL]
+and,và
+and above,và trên đây
+cache refresh needed,Cần refesh bộ đệm (cache)
+categories,các danh mục
+comma separated,được phân cách bằng dấu phẩy
+each,mỗi
+ex. http://domain.com,vd. http://domain.com
+must be in the allowed values list,phải thuộc danh sách giá trị được phép
+per page,trên trang
+products,các sản phẩm
+save,lưu
+select all,chọn tất cả
+unselect all,hủy chọn tất cả
+##############################################################################################
+Hardcover,Bìa cứng
+Paperback,Bìa mềm
+View All Bestseller,Xem tất cả sách bán chạy
+- Author:,- Tác giả:
+Author:,Tác giả:
+Sale Off,Tiết kiệm
+Sale Off:,Tiết kiệm:
+Vietnamese,Tiếng việt
+Press Reviews,Báo chí giới thiệu
+Book Catalog,Thể loại sách
+"Shopping cart: <span id=""cartqty"">0</span>"," Giỏ hàng: <span id=""cartqty"">0</span>"
+"Shopping cart: <span id=""cartqty"">%s</span>"," Giỏ hàng: <span id=""cartqty"">%s</span>"
+<a href="%s">Shopping cart: 1</a>, <a href="%s">Giỏ hàng: 1</a>
+##############################################################################################
+"6""","6"" (15.24cm)"
+"600 x 800 pixel resolution at 167 ppi","Độ phân giải 600x800 với 167 ppi (điểm ảnh/inch)"
+"E Ink® electronic paper display","Màn hình sử dụng công nghệ mực điện tử E Ink®"
+"16-level gray scale","Màn hình đen trắng 16 sắc độ xám."
+"None, because it's wireless and doesn't require a computer.","Không yêu cầu. Giao tiếp không dây và  không cần thông qua máy tính. (Tại những nước chưa có hỗ trợ kết nối không dây vẫn cần dùng máy tính để chuyển sách, dữ liệu vào máy."
+"2GB internal (approximately 1.4GB available for user content).","Bộ nhớ trong 2GB (Khoảng 1.4GB trống để chứa dữ liệu)."
+"Read on a single charge for up to 1 week with wireless on. Turn wireless off and read for up to 2 weeks. Battery life will vary based on wireless usage, such as shopping the Kindle Store and downloading content. In low-coverage areas or in EDGE/GPRS-only coverage, wireless usage will consume battery power more quickly.","1 tuần khi bật wireless. 2 tuần khi tắt wireless. Dung lượng pin còn phụ thuộc vào một số yếu tố khác"
+"Fully charges in approximately 4 hours via the included U.S. power adapter. Also supports charging from your computer via the included USB 2.0 cable.","Sạc đầy trong vòng 4 giờ khi dùng thiết bị sạc điện đi kèm. Hỗ trợ tính năng sạc qua máy tính bằng cáp USB 2.0 đi kèm"
+"HSDPA modem (3G) with a fallback to EDGE/GPRS; utilizes Amazon Whispernet to provide wireless coverage via AT&T's 3G high-speed data network in the U.S. and partner networks outside of the U.S. See Wireless Terms and Conditions.","Kết nối không dây 3G, có thể chuyển sang EDGE/GPRS nếu khu vực không có 3G (tại Mỹ và một số nước). Chưa có tại Việt Nam"
+"USB 2.0 (micro-B connector) for connection to the Kindle U.S. power adapter or optionally to connect to a PC or Macintosh computer.","USB 2.0 (đầu cắm micro-B vừa dùng để kết nối nguồn điện vừa dùng để nối với máy PC hoặc Mac."
+"3.5mm stereo audio jack, rear-mounted stereo speakers.","Lỗ cắm stereo 3.5mm. Loa ngoài mặt sau máy."
+"Kindle (AZW), TXT, PDF, Audible (Audible Enhanced (AA, AAX)), MP3, unprotected MOBI, PRC natively; HTML, DOC, JPEG, GIF, PNG, BMP through conversion","Hỗ trợ trực tiếp: Kindle (AZW), TXT, PDF, Audible (Audible Enhanced (AA, AAX)), MP3, unprotected MOBI, PRC; Hỗ trợ nhưng cần chuyển đổi: HTML, DOC, JPEG, GIF, PNG, BMP"
+"U.S. power adapter (supports 100V-240V), USB 2.0 cable, rechargeable battery. Book cover sold separately","Bộ nguồn U.S (100-240V), cáp USB 2.0, pin sạch. Bìa sách bán riêng."
+"Quick Start Guide (included in box) [PDF]; Kindle User's Guide (pre-installed on device) [PDF]. Additional information in multiple languages available online.","Sổ hướng dẫn sử dụng (cài sẵn trên máy) [PDF]. Thông tin thêm về việc hỗ trợ đa ngôn ngữ"
+"1-year limited warranty and service included. <strong>30 days warranty by Wannabe.com.vn</strong>","Bảo hành có điều kiện trong 1 năm (bởi Amazon). <strong>Bảo hành 30 ngày tại Wannabe.com.vn</strong>"
+"Khong the xoa san pham nay, vi da co don hang.","Không thể xóa sản phẩm này, vì đã có đơn hàng."
+"Quick Overview:","Mô tả ngắn:"
+"View cart & checkout","Xem giỏ hàng & thanh toán"
+"Continue shopping","Tiếp tục mua hàng"
+"Quantity:","Số lượng:"
+"Product code:","Mã hàng:"
+"Availability:","Tình trạng:"
+"was successfully added to your shopping cart.","đã được thêm vào giỏ hàng."
+"%s and above","%s và cao hơn"

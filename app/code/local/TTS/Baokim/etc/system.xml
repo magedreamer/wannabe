@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<config>
+   <sections>
+        <payment translate="label" module="baokim">
+            <label>Payment Methods</label>
+            <tab>sales</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>400</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+           <baokim translate="label">
+                    <label>Thanh toán Bảo Kim</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>5</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <active translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </active>
+								
+								<email_bussiness translate="label">
+                            <label>email_bussiness</label>
+									 <comment><![CDATA[<a href="https://www.baokim.vn">www.baokim.vn</a>]]></comment>
+                            <sort_order>61</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </email_bussiness>
+							
+								<merchant_id translate="label">
+                            <label>merchant_id</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </merchant_id>
+                          <secure_pass translate="label">
+                            <label>secure_pass</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </secure_pass>
+								<url_success translate="label">
+                            <label>url_Success</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </url_success>
+                        <order_status translate="label">
+                            <label>New Order Status</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_order_status_new</source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </order_status>
+
+                        <title translate="label">
+                            <label>Title</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </title>
+                    </fields>
+                </baokim>
+				 </groups>
+        </payment>
+    </sections>
+</config>

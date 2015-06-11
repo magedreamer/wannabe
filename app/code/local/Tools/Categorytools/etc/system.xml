@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Unicode Systems
+ * @category   Uni
+ * @package    Uni_Categorytools
+ * @copyright  Copyright (c) 2010-2011 Unicode Systems. (http://www.unicodesystems.in)
+ * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+ -->
+<config>
+    <tabs>
+        <categorytools translate="label" module="categorytools">
+            <label>Categorytools</label>
+            <sort_order>220</sort_order>
+        </categorytools>
+    </tabs>
+    <sections>
+        <categorytools translate="label" module="categorytools">
+            <label>Categorytools Settings</label>
+            <tab>categorytools</tab>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>0</show_in_store>
+            <sort_order>0</sort_order>
+            <groups>
+                <categorytools translate="label">
+                    <label>Categorytools Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <categorytools_cachetime translate="label">
+                            <label>Categorytools cachetime</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </categorytools_cachetime>
+			<categorytools_categoryfilter_cachetime translate="label">
+                            <label>Categorytools categoryfilter cachetime</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </categorytools_categoryfilter_cachetime>
+			<categorytools_preorder_cachetime translate="label">
+                            <label>Categorytools preorder cachetime</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </categorytools_preorder_cachetime>
+			<categorytools_new_cachetime translate="label">
+                            <label>Categorytools new cachetime</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </categorytools_new_cachetime>
+			<categorytools_subcategory_cachetime translate="label">
+                            <label>Categorytools The Loai cachetime</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </categorytools_subcategory_cachetime>
+                    </fields>
+                </categorytools>
+            </groups>
+        </categorytools>
+    </sections>
+</config>

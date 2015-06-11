@@ -1,0 +1,38 @@
+<?php
+
+$bannerGroupCode = $this->getBannerGroupCode();
+$code = explode('_',$bannerGroupCode);
+$template = '';
+if ($code):
+    switch(strtolower($code[0])):
+        case "home" :
+                $template = $this->getLayout()->createBlock('banner/banner', 'home.banner')->setBannerGroupCode($bannerGroupCode)->setTemplate('banner/home/banner.phtml')->toHtml();
+                break;
+        case "allstore" :
+                $template = $this->getLayout()->createBlock('banner/banner', 'allstore.banner')->setBannerGroupCode($bannerGroupCode)->setTemplate('banner/allstore/banner.phtml')->toHtml();
+                break;
+        case "productview" :
+                $template = $this->getLayout()->createBlock('banner/banner', 'productview.banner')->setBannerGroupCode($bannerGroupCode)->setTemplate('banner/productview/banner.phtml')->toHtml();
+                break;
+        case "checkout" :
+                $template = $this->getLayout()->createBlock('banner/banner', 'checkout.banner')->setBannerGroupCode($bannerGroupCode)->setTemplate('banner/checkout/banner.phtml')->toHtml();
+                break;
+	case "sachtiengviet" :
+                $template = $this->getLayout()->createBlock('banner/banner', 'sachtiengviet.banner')->setBannerGroupCode($bannerGroupCode)->setTemplate('banner/sachtiengviet/banner.phtml')->toHtml();
+                break;
+	case "sachtienganh" :
+                $template = $this->getLayout()->createBlock('banner/banner', 'sachtienganh.banner')->setBannerGroupCode($bannerGroupCode)->setTemplate('banner/sachtienganh/banner.phtml')->toHtml();
+                break;
+	case "thoitrang" :
+                $template = $this->getLayout()->createBlock('banner/banner', 'thoitrang.banner')->setBannerGroupCode($bannerGroupCode)->setTemplate('banner/thoitrang/banner.phtml')->toHtml();
+                break;
+	case "dientu" :
+                $template = $this->getLayout()->createBlock('banner/banner', 'dientu.banner')->setBannerGroupCode($bannerGroupCode)->setTemplate('banner/dientu/banner.phtml')->toHtml();
+                break;	
+	case "quatang" :
+                $template = $this->getLayout()->createBlock('banner/banner', 'quatang.banner')->setBannerGroupCode($bannerGroupCode)->setTemplate('banner/quatang/banner.phtml')->toHtml();
+                break;		
+    endswitch;
+    echo $template;
+endif;
+?>

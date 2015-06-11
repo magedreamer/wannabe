@@ -1,0 +1,46 @@
+--Please Select--,--Lựa chọn--
+<label>Make Check payable to:</label> %s,<label>Hướng dẫn:</label> %s
+<label>Make Check payable to</label>: %s,<label>Hướng dẫn</label>: %s
+Can not configuration for payment method with code: %s,Không thể cấu hình cách thanh toán với mã: %s
+Can not retrieve payment info model object.,Không lấy được thông tin thanh toán vật mô hình.
+Can not retrieve payment method instance,Không thể lấy các thanh toán ví dụ
+Can not retrieve payment method model object.,Không lấy được cách thanh toán vật mô hình.
+Card Verification Number,Số xác thực của thẻ
+Check / Money order,Séc / Tiền thanh toán
+Credit Card Number,Số thẻ tín dụng
+Credit Card Number: %s,Số thẻ tín dụng: %s
+Credit Card Number: xxxx-%s,Số thẻ tín dụng: xxxx-%s
+Credit Card Type,Loại thẻ tín dụng
+Credit Card Type: %s,Loại thẻ tín dụng: %s
+Credit Card Types,Loại thẻ tín dụng
+Credit Card Verification,Xác thực thẻ tín dụng
+Enabled,Bật
+Expiration Date,Ngày hết hạn
+Expiration Date: %s/%s,Ngày hết hạn: %s/%s
+Make Check payable to,Hướng dẫn
+Make Check payable to: %s,Hướng dẫn: %s
+Maximum Order Total,Tổng đơn hàng tối đa
+Minimum Order Total,Tổng đơn hàng tối thiểu
+Month,Tháng
+Name on Card,Tên ghi trên thẻ
+Name on the Card: %s,Tên ghi trên thẻ: %s
+New order status,Trạng thái đơn hàng mới
+Payment Methods,Phương thức thanh toán
+Payment Methods Section,Mục các phương thức thanh toán
+Payment from Specific countries,Thanh toán từ nước xác định
+Payment from applicable countries,Thanh toán từ nước áp dụng
+Purchase Order Number,Số đơn hàng mua
+Purchase Order Number: %s,Số đơn hàng mua: %s
+"Purchase order","Đơn hàng mua"
+Saved CC,Lưu CC
+Send Check to,Tài khoản ngân hàng của Wannabe.com.vn
+Send Check to:,Tài khoản ngân hàng của Wannabe.com.vn:
+Sort order,Sắp xếp đơn hàng
+Title,Tiêu đề
+What is this?,Gì thế?
+Year,Năm
+Zero Subtotal Checkout,Không tổng phụ thanh toán
+#################################
+<strong>How to make payment</strong> After placing your order&#44; you can visit any post office nearby to make payment using Wannabe&#39;s address as receipient:<br />- Recepient name: Wannabe Corp<br />- Adress: A2&#44; Zone SaiGon Times&#44; Binh Khanh&#44; Q.2<br />Wannabe.com.vn will deliver products as soon as we receive your payment. Please write your name as sender in the check the same as the name you has entered in step 1.,<strong>Hướng dẫn:</strong> sau khi hoàn tất đặt hàng&#44; bạn có thể đến bất cứ bưu điện nào để thực hiện thanh toán cho Wannabe.com.vn theo thông tin dưới đây:<br />- Họ tên người nhận: Công ty Cổ phần Ti Ki<br />- Địa chỉ: A2&#44; Khu Thời báo KTSG&#44; Bình Khánh&#44; Q.2<br />Wannabe.com.vn sẽ nhanh chóng giao hàng ngay khi nhận được thông báo chuyển tiền. Xin vui lòng  ghi Họ tên mà bạn sẽ dùng để chuyển tiền trùng với Họ tên mà bạn cung cấp cho Wannabe.com.vn.
+ 
+<strong>How to make payment:</strong> With COD&#44; Wannabe.com.vn will contact&#44; deliver products and collect payment at your specified address in step 1. Please notice that you can only use COD if your billing and shipping address are the same.,<strong>Hướng dẫn:</strong> Với hình thức COD&#44; Wannabe.com.vn sẽ liên lạc&#44; giao hàng và thu tiền tận nơi theo địa chỉ bạn cung cấp ở bước 1. Xin lưu ý rằng bạn chỉ có thể sử dụng hình thức COD nếu địa chỉ người mua và người nhận là giống nhau.

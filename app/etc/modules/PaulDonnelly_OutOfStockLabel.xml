@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <PaulDonnelly_OutOfStockLabel>
+            <active>true</active>
+            <codePool>local</codePool>
+        </PaulDonnelly_OutOfStockLabel>
+    </modules>
+</config>  

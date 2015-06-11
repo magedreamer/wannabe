@@ -1,0 +1,86 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category   design_default
+ * @package    Flagbit
+ * @copyright  Copyright (c) 2009 Flagbit GmbH & Co. KG (http://www.flagbit.de)
+ * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/* @var $this Flagbit_Faq_Block_Frontend_List */
+?>
+<div class="page-title faq-title">
+    <h1><?php echo $this->__('Các câu hỏi thường gặp'); ?></h1>
+</div>
+
+<div class="faq-main clearfix">
+    <?php if ($this->hasFaq()): ?>
+
+        <div class="faq-content">
+
+            <?php if ($this->getCategoryCollection()) : ?>
+                <dl class="faq-list">
+                    <?php foreach ($this->getCategoryCollection() as $category) : ?>
+                        <dt id="faq-category-<?php echo $this->htmlEscape($category->getId()); ?>" class="faq-question-cate" ><?php echo $this->htmlEscape($category->getName()); ?></dt>
+                        <dd>
+                            <ul class="faq-list-question">
+                                <?php $itemCollection = $this->getItemCollectionByCategory($category); ?>
+                                <?php foreach ($itemCollection as $item) : ?>
+                                    <li>
+                                        <a href="#faq-item-<?php echo $item->getId() ?>">
+                                            <?php echo $this->htmlEscape($item->getQuestion()); ?>
+                                        </a>
+                                    </li>
+                                <?php endforeach; ?>
+                            </ul>
+                            
+                            <ul class="faq-list-answer">
+                                <?php foreach ($itemCollection as $item) : ?>
+                                    <li>
+                                        <span id="faq-item-<?php echo $item->getId() ?>" class="faq-answer-name ">
+                                            <?php echo $this->htmlEscape($item->getQuestion()); ?>
+                                        </span>
+                                         <a href="#top"><span class="faq-top">Về Đầu Trang</span></a>
+
+                                        <div class="faq-answer-content">
+                                            <?php echo $item->getAnswer(); ?>
+                                        </div>
+                                    </li>
+                                <?php endforeach; ?>
+                            </ul>
+                            
+                        </dd>
+
+                    <?php endforeach; ?>
+                </dl>
+            <?php endif; ?>
+
+        </div>
+
+
+
+        <?php else: ?>
+        <p class="faq-items"><?php echo $this->__('Thông tin đang được cập nhật') ?></p>
+        
+        
+    <?php endif; ?>
+
+
+</div>
+

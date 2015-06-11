@@ -1,0 +1,1 @@
+{{block type="banner/banner" name="banner.home" banner_group_code="banner_group1" template="unibanner/banner.phtml"}}

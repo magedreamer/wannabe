@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <tools translate="title" module="upload">
+            <title>Tools</title>
+            <sort_order>71</sort_order>
+            <children>
+                <upload module="upload">
+                    <title>Upload</title>
+                    <sort_order>75</sort_order>
+                    <children>
+                        <upload module="upload">
+                            <title>Manage Uploads</title>
+                            <sort_order>0</sort_order>
+                            <action>upload/adminhtml_upload</action>
+                        </upload>
+                        <uploadgroup module="upload">
+                            <title>Manage Upload Groups</title>
+                            <sort_order>1</sort_order>
+                            <action>upload/adminhtml_uploadgroup</action>
+                        </uploadgroup>
+                        <uploadsetting module="upload">
+                            <title>Settings</title>
+                            <sort_order>2</sort_order>
+                            <action>adminhtml/system_config/edit/section/upload</action>
+                        </uploadsetting>
+                    </children>
+                </upload>
+            </children>
+        </tools>
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin module="customerorder" translate="title">
+                <children>
+                    <tools translate="title">
+                        <title>Tools Module</title>
+			<sort_order>10</sort_order>
+			<children>
+                            <upload translate="title">
+                                <title>Upload</title>
+                                <sort_order>70</sort_order>
+                                <children>
+                                    <upload translate="title">
+                                        <title>Manage Uploads</title>
+                                        <sort_order>0</sort_order>
+                                    </upload>
+                                    <uploadgroup translate="title">
+                                        <title>Manage Upload Groups</title>
+                                        <sort_order>1</sort_order>
+                                    </uploadgroup>
+                                    <uploadsetting translate="title">
+                                        <title>Settings</title>
+                                        <sort_order>2</sort_order>
+                                    </uploadsetting>
+                                </children>
+                            </upload>
+                        </children>
+                    </tools>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <upload>
+                                        <title>Upload Settings</title>
+                                    </upload>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

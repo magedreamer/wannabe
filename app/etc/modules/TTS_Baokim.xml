@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <TTS_Baokim>
+            <active>true</active>
+            <codePool>local</codePool>
+		
+             <depends>
+                <Mage_Payment />
+            </depends>
+        </TTS_Baokim>
+    </modules>
+</config> 

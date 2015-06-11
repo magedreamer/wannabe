@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Unicode Systems
+ * @category   Uni
+ * @package    Uni_Upload
+ * @copyright  Copyright (c) 2010-2011 Unicode Systems. (http://www.unicodesystems.in)
+ * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+ -->
+<layout version="0.1.0">
+    <upload_adminhtml_upload_index>
+        <reference name="content">
+            <block type="upload/adminhtml_upload" name="upload" />
+        </reference>
+    </upload_adminhtml_upload_index>
+    <upload_adminhtml_upload_edit>
+        <update handle="editor"/>
+    </upload_adminhtml_upload_edit>
+</layout>

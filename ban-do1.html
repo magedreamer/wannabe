@@ -1,0 +1,328 @@
+
+<html>
+    <head>
+
+     
+
+        <title>test map</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+
+
+        <script>
+            var map;
+            var markers = [];
+            var infoWindow;
+            var panorama;
+
+            function init_map() {
+                map = new google.maps.Map(document.getElementById("map"), {
+                    //center: new google.maps.LatLng(10.767923413032847, 106.66383504867554),
+                    zoom: 4,
+                    mapTypeId: 'roadmap',
+                    mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU}
+                });
+                infoWindow = new google.maps.InfoWindow();
+	
+                var address = $('#address').val();
+                // if(address=='') init_location();
+                //    else searchLocations();
+                displayLocation();
+            }
+
+            function init_location() {
+                map = new google.maps.Map(document.getElementById("map"), {
+                    center: new google.maps.LatLng(10.767923413032847, 106.66383504867554),
+                    zoom: 15,
+                    mapTypeId: 'roadmap',
+                    mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU}
+                });
+            }
+
+            $("#next").live('click', function(event) {
+                event.preventDefault();
+                var page_number = $('body').data("page_number");
+                $('body').data("page_number", (page_number+1));
+                searchLocations();
+            });
+
+            $("#previous").live('click', function(event) {
+                event.preventDefault();
+                var page_number = $('body').data("page_number");
+                $('body').data("page_number", (page_number-1));
+                searchLocations();
+            });
+
+            function searchLocations() {
+                var address = $('#address').val();
+                var geocoder = new google.maps.Geocoder();
+                geocoder.geocode({address: address}, function(results, status) {
+                    if (status == google.maps.GeocoderStatus.OK) {
+                        searchLocationsNear(results[0].geometry.location);
+                    } 
+                    else {
+                        alert(address + ' not found');
+                    }
+                });
+            }
+
+            function clearLocations() {
+                infoWindow.close();
+                for (var i = 0; i < markers.length; i++) {
+                    markers[i].setMap(null);
+                }
+                markers.length = 0;
+	
+                var option = document.createElement("option");
+                option.value = "none";
+                option.innerHTML = "See all results:";
+            }
+
+            function createSidebarEntry(markerNum, sidebarContent, markerContent, lat, lng) {
+                var div = document.createElement('div');
+                div.innerHTML = sidebarContent;
+                div.style.cursor = 'pointer';
+                div.style.marginBottom = '5px';
+	
+                div.onclick = function(){
+                    infoWindow.setContent(markerContent);
+                    infoWindow.open(map, markers[markerNum]);
+                    streetView(lat,lng);
+                }
+	
+                div.onmouseover = function(){
+                    div.style.backgroundColor = '#eee';
+                }
+	
+                div.onmouseout = function(){
+                    div.style.backgroundColor = '#fff';
+                }
+	
+                return div;
+            }
+
+            function resizeMap(width,height) {
+                $('#map').animate({width: width, height:height}, 
+                function() { 
+                    google.maps.event.trigger(map, 'resize');
+                    map.setCenter(map.getCenter());
+                });
+            }
+
+            function streetView(lat,lng) {
+                var dom = 'streetview';
+                panorama = new google.maps.StreetViewPanorama(document.getElementById(dom));
+                displayStreetView(lat,lng, dom);
+                if($('#map').height()==600) {
+                    resizeMap(720,600);
+                    //$('#streetview').height(300);
+                }
+            }
+
+            function searchLocationsNear(center) {
+                clearLocations();
+	
+                var sidebar = document.getElementById('sidebar');
+                sidebar.innerHTML = '';
+ 	
+                var page_number = $('body').data("page_number");
+                if(page_number==null) {
+                    page_number=1;
+                    $('body').data("page_number", page_number);
+                }
+                var categoryid = $('#categoryid').val();
+                //var searchUrl = 'map_data.php?lat=' + center.lat() + '&lng=' + center.lng() + '&categoryid=' + categoryid + '&page_number=' + page_number;
+                var searchUrl = 'testmap.php';
+                $.ajax({
+                    type: 'GET',
+                    url: searchUrl,
+                    dataType: 'json',
+                    success: function(msg) {
+                        var locations = msg.locations;
+                        var markersContent = msg.markersContent;
+                        var sidebarContent = msg.sidebarContent;
+                        var bounds = new google.maps.LatLngBounds();
+                        for (var i = 0; i < locations.length; i++) {
+                            var name = locations[i]['name'];
+                            var address = locations[i]['address'];
+                            var distance = parseFloat(locations[i]['distance']);
+                            var latlng = new google.maps.LatLng(
+                            parseFloat(locations[i]['lat']),
+                            parseFloat(locations[i]['lng'])
+                        );
+			
+                            var sidebarEntry = createSidebarEntry(i, sidebarContent[i], markersContent[i], locations[i]['lat'], locations[i]['lng']);
+                            sidebar.appendChild(sidebarEntry);
+			
+                            createOption(name, distance, i);
+                            createMarker(latlng, locations[i]['lat'], locations[i]['lng'], markersContent[i]);
+      
+                            bounds.extend(latlng);
+                        }
+                        $('#pagination').html(msg.pagination);
+                        map.fitBounds(bounds);
+                    }
+                });
+                resizeMap(720,600);
+                $('#streetview').html('').height(0);
+            }
+
+            function createMarker(latlng, lat, lng, html) {
+                var marker = new google.maps.Marker({
+                    map: map,
+                    position: latlng,
+                    animation: google.maps.Animation.DROP
+                });
+                google.maps.event.addListener(marker, 'click', function() {
+                    infoWindow.setContent(html);
+                    infoWindow.open(map, marker);
+                    streetView(lat,lng);
+                });
+                markers.push(marker);
+            }
+
+            function createOption(name, distance, num) {
+                var option = document.createElement("option");
+                option.value = num;
+                option.innerHTML = name + "(" + distance.toFixed(1) + ")";
+            }
+
+            function displayStreetView(lat,lng, dom) {
+                var latlng = new google.maps.LatLng(lat,lng);
+	
+                var panoramaOptions = {
+                    position: latlng,
+                    pov: {
+                        heading: 270,
+                        pitch: 0,
+                        zoom: 1
+                    }
+                };
+                panorama = new google.maps.StreetViewPanorama(document.getElementById(dom),panoramaOptions);
+                map.setStreetView(panorama);
+            }
+
+            function processSVData(data, status) {
+                marker.setMap();
+	
+                if (status == google.maps.StreetViewStatus.OK) {
+                    marker = new google.maps.Marker({
+                        position: data.location.latLng,
+                        map: map,
+                        title: data.location.description
+                    });
+	  
+                    panorama.setPano(data.location.pano);
+                    panorama.setPov({
+                        heading: 270,
+                        pitch: 0,
+                        zoom: 1
+                    });
+                    panorama.setVisible(true);
+	  
+                    google.maps.event.addListener(marker, 'click', function() {
+	  
+                        var markerPanoID = data.location.pano;
+                        // Set the Pano to use the passed panoID
+                        panorama.setPano(markerPanoID);
+                        panorama.setPov({
+                            heading: 270,
+                            pitch: 0,
+                            zoom: 1
+                        });
+                        panorama.setVisible(true);
+                    });
+                } 
+                else {
+                    alert("Street View data not found for this location.");
+                }
+            }
+
+            function displayLocation() {
+                clearLocations();
+	
+                var sidebar = document.getElementById('sidebar');
+                sidebar.innerHTML = '';
+ 	
+                var page_number = $('body').data("page_number");
+                if(page_number==null) {
+                    page_number=1;
+                    $('body').data("page_number", page_number);
+                }
+                var categoryid = $('#categoryid').val();
+                //var searchUrl = 'map_data.php?lat=' + center.lat() + '&lng=' + center.lng() + '&categoryid=' + categoryid + '&page_number=' + page_number;
+                var searchUrl = 'testmap.php';
+                $.ajax({
+                    type: 'GET',
+                    url: searchUrl,
+                    dataType: 'json',
+                    success: function(msg) {
+                        var locations = msg.locations;
+                        var markersContent = msg.markersContent;
+                        var sidebarContent = msg.sidebarContent;
+                        var bounds = new google.maps.LatLngBounds();
+                        for (var i = 0; i < locations.length; i++) {
+                            var name = locations[i]['name'];
+                            var address = locations[i]['address'];
+                            var distance = parseFloat(locations[i]['distance']);
+                            var latlng = new google.maps.LatLng(
+                            parseFloat(locations[i]['lat']),
+                            parseFloat(locations[i]['lng'])
+                        );
+			
+                            var sidebarEntry = createSidebarEntry(i, sidebarContent[i], markersContent[i], locations[i]['lat'], locations[i]['lng']);
+                            sidebar.appendChild(sidebarEntry);
+			
+                            createOption(name, distance, i);
+                            createMarker(latlng, locations[i]['lat'], locations[i]['lng'], markersContent[i]);
+      
+                            bounds.extend(latlng);
+                        }
+                        $('#pagination').html(msg.pagination);
+                        map.fitBounds(bounds);
+                    }
+                });
+                resizeMap(720,600);
+                $('#streetview').html('').height(0);
+            }
+            $(document).ready(function() {
+                init_map();
+                $('#address').focus();
+		
+                $('#streetview2').live('click', function(){
+                    $("#streetview2").fancybox();
+                    return false;
+                });
+	
+            })
+        </script>
+
+    </head>
+
+    <body>
+        <div align="center">
+            <div >
+                <b>Wannabe</b><br>
+                <!--             <form method="GET"><input type="text" id="address" name="address" size="40" value="lube center" style="font-size:18px;padding:2px; margin:2px;" /><select id="categoryid" name="categoryid" style="font-size:18px;padding:2px; margin:2px;"><option value="1">Hồ Chí Minh</option><option value="4">Long Xuyên</option><option value="3">Cần Thơ</option><option value="2">Biên Hòa</option><option value="5">Đà Lạt</option><option value="6">Vũng Tàu</option><option value="7">An Giang</option><option value="15">Kiên Giang</option><option value="16">Vĩnh Long</option><option value="17">Hải Phòng</option><option value="18">Đà Nẵng</option></select><input type="submit" value="Search" style="font-size:18px;padding:2px; margin:2px;" /></form></div>
+                -->
+                <div>
+                    <table> 
+                        <tr>
+                            <td width="350" valign="top">
+                                <div id="sidebar" style="overflow: auto; height: 580px; font-size: 13px; color: #000;"></div>
+                                <div id="pagination"></div>
+                            </td>
+                            <td>
+                                <div id="map" style="overflow: hidden; width:720px; height:600px"></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+     <!-- <menu>
+        <tools module="swatch">
+            <title>swatch</title>
+            <sort_order>71</sort_order>
+            <children>
+                <swatch module="swatch">
+                    <title>swatch</title>
+                    <sort_order>1</sort_order>
+                    <action>swatch/adminhtml_swatch</action>
+                </swatch>
+            </children>
+        </tools>
+    </menu>-->
+
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <tools>
+                        <title>Tools Module</title>
+                        <sort_order>10</sort_order>
+                        <children>
+                            <swatch translate="title">
+                                <title>swatch Manage</title>
+                                <sort_order>1</sort_order>
+                            </swatch>
+                        </children>
+                    </tools>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

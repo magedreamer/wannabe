@@ -1,0 +1,1 @@
+{{block type="upload/upload" name="upload.home" upload_group_code="upload_group1" template="uniupload/upload.phtml"}}

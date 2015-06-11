@@ -1,0 +1,968 @@
+ The customer doesn\'t exist in the system anymore,Khách hàng không còn tồn tại trong hệ thống
+ and ,và
+"(Absolute path or Relative to Magento install root, ex. var/export)","(Absolute path or Relative to Wannabe install root, ex. var/export)"
+(For US 2-letter state names),(For US 2-letter state names)
+(If left empty will be auto-generated),(If left empty will be auto-generated)
+(Leave empty for first spreadsheet),(Leave empty for first spreadsheet)
+(Products will be added/updated to this store if 'store' column is blank or missing in the import file.),(Products will be added/updated to this store if 'store' column is blank or missing in the import file.)
+(Shift-)Click or drag to change value,(Shift-)Click hoặc kéo để thay đổi giá trị
+(Starting with),(Bắt đầu với)
+"(When 'No', only mapped fields will be imported. When mapping, use 'column1', 'column2', etc.)","(When 'No', only mapped fields will be imported. When mapping, use 'column1', 'column2', etc.)"
+(You have to increase php memory_limit before changing this value),(Bạn phải tăng php memory_limit trước khi thay đổi giá trị này)
+(\\t for tab),(\\t for tab)
+"* - If indexing is in progress, it will be killed and new indexing process will start","* - If indexing is in progress, it will be killed and new indexing process will start"
+#NAME?,#NAME?
+#NAME?,#NAME?
+- Use the %s buttons to select month,- Sử dụng phím %s để chọn tháng
+"- Use the %s, %s buttons to select year","- Sử dụng phím %s, %s để chọn năm"
+#NAME?,#NAME?
+#NAME?,#NAME?
+-- Please Select --,-- Hãy chọn --
+-- Please select --,-- Hãy chọn --
+-- Please select a category --,-- Hãy chọn một danh mục --
+--Please Select--,--Hãy chọn--
+1 Hour,1 Giờ
+12 Hours,12 Giờ
+2 Hours,2 Giờ
+24 Hours,24 Giờ
+2YTD,2YTD
+6 Hours,6 Giờ
+"<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 Error</h1><p>Không tìm thấy trang này.</p>"
+"<h1 class=""page-heading"">Access denied</h1><p>Access denied.</p>","<h1 class=""page-heading"">Từ chối truy cập</h1><p>Từ chối truy cập.</p>"
+A new password was sent to your email address. Please check your email and click Back to Login.,Mật khẩu mới đã được gửi vào địa chỉ email của bạn. Vui lòng kiểm tra email và nhấn Back để đăng nhập.
+API Stability,API Stability
+API Version,Phiên bản API
+API:,API:
+About the calendar,Về lịch
+Access Denied.,Truy cập bị từ chối.
+Access Deny,Từ chối truy cập
+Account Created in:,Tài khoản đã được khởi tạo vào:
+Account Created on (%s):,Tài khoản đã được khởi tạo vào lúc(%s):
+Account Created on:,Tài khoản đã được khởi tạo vào:
+Account Information,Thông tin tài khoản
+Account status,Trạng thái tài khoản
+Account successfully saved,Tài khoản đã được lưu lại thành công
+Action,Hoạt động
+Actions,Các hoạt động
+Actions XML,Các hoạt động XML
+Active,Kích hoạt
+Add,Thêm
+Add Contents Path,Thêm đường dẫn nội dung
+Add Exception,Thêm loại trừ
+Add Field Mapping,Add Field Mapping
+Add Field with URL:,Thêm trường kèm URL:
+Add Maintainer,Add Maintainer
+Add New Image,Thêm ảnh mới
+Add New Profile,Thêm profile mới
+Add New Role,Thêm role mới
+Add New Template,Thêm template mới
+Add New Urlrewrite,Thêm Urlrewrite mới
+Add New User,Thêm người dùng mới
+Add New osCommerce Profile,Thêm osCommerce Profile mới
+Add PHP Extension dependency,Add PHP Extension dependency
+Add Package dependency,Add Package dependency
+Add Subpackage dependency,Add Subpackage dependency
+Add Urlrewrite,Thêm Urlrewrite
+Add Urlrewrite for a Category,Thêm Urlrewrite cho Danh mục
+Add Urlrewrite for a Product,Thêm Urlrewrite cho một sản phẩm
+Add after,Thêm sau
+Add new Role,Thêm Role mới
+Address Type:,Loại địa chỉ:
+Admin,Admin
+Advanced Admin Section,Khu vực Admin nâng
+Advanced Profiles,Profiles nâng cao
+Advanced Section,Khu vực nâng cao
+Aggregate Order,Aggregate Order
+All,Tất cả
+All Allowed Countries,Tất cả các quốc gia cho phép
+All Cache,Tất cả Cache
+All Files,Tất cả Files
+All Store Views,Tất cả Store Views
+All Tags,Tất cả Tags
+All Websites,Tất cả các trang web
+All countries,Tất cả các nước
+All fields,Tất cả các trường
+"All possible rates were fetched, click on ""Save"" to apply","Tất cả tỉ số khả thi đã được thu thập, click vào ""Lưu"" để áp dụng"
+"All rates were fetched, click on ""Save"" to apply","Tất cả tỉ số đã được thu thập, click vào ""Lưu"" để áp dụng"
+All valid rates successfully saved,Tất cả tỉ số phù hợp đã được lưu thành công
+Amounts,Số lượng
+Any,Bất kỳ
+Any Attribute Set,Attribute Set bất kỳ
+Any Group,Nhóm bất kỳ
+Any Status,Trạng thái bất kỳ
+Any Store,Store bất kỳ
+Any Type,Loại bất kỳ
+Any Visibility,Dạng hiển thị bất kỳ
+Api Key,Api Key
+Api Key Confirmation,Xác nhận Api Key
+Archive file name:,Archive file name:
+Are you sure that you want to delete this template?,Bạn có chắc chắn xóa template này không?
+Are you sure that you want to strip tags?,Bạn có chắc chắn bỏ những tag này?
+Are you sure you want to do this?,Bạn có chắc chắn làm việc này?
+Are you sure you wish to INSTALL all selected packages?,Bạn có chắc chắn muốn cài đặt những gói đã được chọn này?
+Are you sure you wish to UNINSTALL all selected packages?,Bạn có chắc chắn muốn gỡ cài đặt những gói đã được chọn này?
+Are you sure you wish to UPGRADE all selected packages?,Bạn có chắc chắn muốn cập nhật những gói đã được chọn này?
+Area,Vùng
+Assigned,Được gán
+Attribute Set Name:,Tên Attribute Set:
+Attribute set successfully saved.,Attribute set được lưu thành công.
+Attribute set was successfully removed.,Attribute set được loại bỏ thành công.
+Attributes,Attributes
+Available Products,Sản phẩm có thể cung cấp
+Available Version,Phiên bản có thể dùng
+Average Order Amount,Lượng đặt hàng trung bình
+Average Orders,Trung bình các đặt hàng
+Back,Quay lại
+Back to Login,Quay lại để đăng nhập
+Back to local packages,Quay lại với local package
+Backup,Sao lưu
+Backup record was deleted,Bản ghi sao lưu đã được xóa
+Backup successfully created,Sao lưu đã được khởi tạo thành công
+Backups,Các sao lưu
+Base currency,Tiền tệ cơ bản
+Bcc,Bcc
+Big Image,Ảnh lớn
+"Billing Address","Địa chỉ thanh toán"
+"Billing address","Địa chỉ thanh toán"
+Block Information,Khối thông tin
+Both (without and with tax),Cả hai (Không có và có thuế)
+Browse Available Extensions,Tìm kiếm các Extentions đang có
+Browse Available Remote Extensions,Tìm kiếm các Remote Extensions đang có
+Browse Files...,Tìm các files...
+Bundle Items,Gói sản phẩm
+Bundle with dynamic pricing cannot include custom defined options. Options will not be saved.,bundle with dynamic pricing cannot include custom defined options. options will not be Lưud.
+CRITICAL,QUAN TRỌNG
+CSV,CSV
+CSV / Tab separated,CSV / Tab separated
+Cache Control,Kiểm soát Cache
+Cache Control (beta),Kiểm soát Cache (beta)
+Cache Management,Quản lý bộ đệm (cache)
+Can not add new comment.,Không thể thêm bình luận mới.
+Can not add tracking number.,Không thể thêm số tracking.
+Can not delete tracking number.,Không thể xoá số tracking.
+Can not do credit memo for order,Không thể thực hiện credit memo cho đơn hàng
+Can not do invoice for order,Không thể in invoice cho đơn hàng
+Can not do shipment for order.,Không thể ship đơn hàng.
+Can not initialize shipment for adding tracking number.,Can not initialize shipment for adding tracking number.
+Can not initialize shipment for delete tracking number.,Can not initialize shipment for delete tracking number.
+Can not load track with retrieving identifier.,Can not load track with retrieving identifier.
+Can not retrieve tracking number detail.,Can not retrieve tracking number detail.
+Can not save credit memo,Không thể lưu credit memo
+Can not save invoice,Không thể lưu invoice
+Can not save shipment.,Không thể lưu shipment.
+Can not send shipment information.,Không thể gửi thông tin shipment.
+Can not update item qty,Không thể cập nhật số lượng sản phẩm
+Can't delete design change,Không thể xoá thay đổi design
+Can\'t find email address.,Không thể tìm thấy địa chỉ e-mail.
+Cancel,Huỷ
+Card Verification Number, Số Verification của thẻ
+Catalog,Catalog
+Catalog Rewrites,Viết lại Danh mục
+Catalog Rewrites was refreshed successfully,Rewrites Danh mục đã được làm tươi thành công
+Catalog Rewrites were refreshed successfully,Rewrites Danh mục đã được làm tươi thành công
+Category,Danh mục
+Category:,Danh mục:
+Changelog,Changelog
+Channel,Kênh
+Channel:,Kênh:
+Checkbox,Checkbox
+Choose Store View,Chọn Store View
+Choose an attribute,Chọn một thuộc tính
+Clear,Xoá sạch
+"Close","Đóng"
+Comment text field can not be empty.,Ô bình luận không thể bỏ trống.
+Comments History,Lịch sử các bình luận
+Complete,Hoàn tất
+Configuration,Cấu hình
+Configuration successfully saved,Cấu hình đã được lưu thành công
+Confirmed email:,Xác nhận email:
+Conflicts,Các xung đột
+"Connect with the Magento Community","Kết nối với cộng đồng của Wannabe (facebook)"
+"Connect with the Wannabe","Kết nối với Wannabe"
+Contents,Các nội dung
+Convert to Plain Text,Chuyển sang Plain Text
+Cookie (Unsafe),Cookie (Không an toàn)
+Country,Quốc gia
+Country:,Quốc gia:
+Coupon Code,Mã Coupon
+Coupons,Coupons
+Create,Tạo
+Create DB Backup,Khởi tạo sao lưu CSDL
+Create Extension Package,Khởi tạo Extension Package
+Create New Attribute,Tạo thuộc tính mới
+Create Urlrewrite:,Khởi tạo Urlrewrite:
+"Created At","Được tạo vào"
+Credit Card Number,Số thẻ tín dụng
+Credit Card Number: xxxx-%s,Số thẻ tín dụng: xxxx-%s
+Credit Card Type,Loại thẻ tín dụng
+Credit Card Type: %s,Loại thẻ tín dụng: %s
+Credit Memo #%s comment added,Credit Memo #%s đã thêm bình luận
+Credit Memo #%s created,Credit Memo #%s đã được tạo
+Credit Memo History,Lịch sử Credit Memo
+Credit Memo Totals,Tổng Credit Memo
+Credit Memo cancel error.,Lỗi huỷ Credit Memo.
+Credit Memo total must be positive.,Tổng Credit Memo phải là số dương.
+Credit Memo void error,Lỗi Credit Memo trống
+Credit Memo was successfully canceled.,Credit Memo được huỷ thành công.
+Credit Memo was successfully created,Credit Memo được tạo thành công
+Credit Memo was successfully voided,Credit Memo đã bị vô hiệu lực thành công
+"Currency","Đơn vị tiền tệ"
+Currency Information,Thông tin tiền tệ
+Currency Setup Section,Khu vực thiết lập tiền tệ
+Current Configuration Scope:,Phạm vi cấu hình hiện tại:
+Current Release Information,Thông tin được đăng hiện tại
+Custom,Tuỳ biến
+Customer,Khách hàng
+Customer Group:,Nhóm khách hàng:
+Customer Name,Tên khách hàng
+Customer Since:,Khách hàng từ:
+Customer was deleted,Khách hàng đã được xóa
+Customer was successfully saved,Khách hàng đã được lưu thành công
+Customer with the same email already exists.,Khách hàng với cùng địa chỉ email đã tồn tại.
+Customers,Các khách hàng
+DHTML Date/Time Selector,Lựa chọn DHTML ngày/giờ
+Dashboard,Dashboard
+"Data Format","Định dạng dữ liệu"
+Data transfer:,Chuyển dữ liệu:
+Date Added,Ngày đã được thêm
+Date Updated,Ngày đã được cập nhật
+Date selection:,Lựa chọn ngày:
+Date selector,Lựa chọn ngày
+Date:,Ngày:
+Decimal separator:,Dấu cách thập phân:
+Default (Admin) Values,Default (Admin) Values
+Default Config,Cấu hình mặc định
+Default Template from Locale,Template mặc định từ Locale
+Default Values,Các giá trị mặc định
+"Default display currency ""%s"" is not available in allowed currencies","Default display currency ""%s"" is not available in allowed currencies"
+Default scope,Default scope
+Delete,Xóa
+Delete %s,Xóa %s
+Delete %s '%s',Xóa %s '%s'
+Delete Profile,Xóa Profile
+Delete Role,Xóa Role
+Delete Store View,Xóa Store View
+Delete Template,Xóa Template
+Delete User,Xóa người dùng
+Delete Website,Xóa trang web
+Dependencies,Dependencies
+Description,Mô tả
+Description:,Mô tả:
+Design,Thiết kế
+Design Section,Khu vực Design
+Design change deleted,Thay đổi thiết kế đã bị xoá
+Design change saved,Thay đổi thiết kế đã được lưu
+Developer Section,Khu vực Developer
+Direction:,Direction:
+Disable,Vô hiệu hoá
+Disabled,Đã vô hiệu hoá
+Discount Amount,Lượng chiết khấu
+Display %s first,Hiển thị %s trước tiên
+Display default currency,Hiển thị đơn vị tiền tệ mặc định
+Distributed under GNU LGPL. See %s for details.,Distributed under GNU LGPL. See %s for details.
+Do you really want to KILL parallel process and start new indexing process?,Do you really want to KILL parallel process and start new indexing process?
+Done By:,Hoàn thành bởi:
+Done by:,Hoàn thành bởi:
+Download Remote File,Download Remote File
+Download and Install,Tải về và cài đặt
+"Downloading and installing $pkg, please wait...","Đang tải và cài đặt $pkg, vui lòng đợi..."
+Drag to move,Kéo để di chuyển
+Drop-down,Drop-down
+Edit,Sửa
+Edit Email Template,Soạn thảo mẫu email
+Edit Poll,Sửa Poll
+Edit Role,Sửa Role
+Edit Store View,Sửa Store View
+Edit System Template,Sửa System Template
+Edit Tag,Sửa Tag
+Edit Template,Sửa Template
+Edit Urlrewrite,Sửa Urlrewrite
+Edit User,Sửa User
+Edit User '%s',Sửa User '%s'
+Edit Website,Sửa trang web
+Email,Email
+"Email Address:","Địa chỉ Email:"
+Email Preview,Xem trước Email
+Email address is empty.,Địa chỉ mail đang trống.
+Email to a Friend,Gửi email cho bạn
+Email:,Email:
+Enable,Kích hoạt
+Enabled,Đã kích hoạt
+Enclose Values In:,Enclose Values In:
+Entity Type,Entity Type
+Entity type:,Entity type:
+Error uploading the file,Lỗi khi đang upload tập tin
+Error while cleared Image cache. Please try again later.,Lỗi khi xóa bộ đệm ảnh. Vui lòng thử lại sau.
+Error while create backup. Please try again later,Lỗi khi khởi tạo sao lưu. Vui lòng thử lại sau.
+Error while deleting this role. Please try again later.,Lỗi khi đang xóa role. Vui lòng thử lại sau.
+Error while deleting this set.,Lỗi khi xoá set này.
+Error while finished process. Please refresh cache,Lỗi khi đang kết thúc tiến trình. Vui lòng làm tươi bộ đệm (refresh cache)
+Error while rebuilded Search Index. Please try again later,Lỗi khi lập chỉ mục tìm kiếm (Tìm index). Vui lòng thử lại sau.
+Error while refreshed Catalog Rewrites. Please try again later,Lỗi khi refresh Catalog Rewrites. Vui lòng thử lại sau.
+Error while refreshed Layered Navigation Indices. Please try again later,Lỗi khi refreshed Layered Navigation Indices. Vui lòng thử lại sau
+Error while saving account. Please try again later,Lỗi khi đang lưu tài khoản. Vui lòng thử lại sau
+Error while saving this configuration:,Lỗi khi đang lưu cấu hình:
+Error while saving this role. Please try again later.,Lỗi khi đang lưu role. Vui lòng thử lại sau.
+Error while updating selected review(s). Please try again later.,Lỗi khi đang lưu các đánh giá được lựa chọn. Vui lòng thử lại sau.
+Excl. Tax,Excl. Thuế
+Exclude,Loại trừ
+Exclude (comma separated),Loại trừ (phân cách bằng dấu phẩy)
+Expiration Date,Ngày hết hạn
+Expiration Date: %s/%s,Hết hạn ngày: %s/%s
+Export,Xuất
+Export CSV,Xuất ra CSV
+Export Filters,Các bộ lọc xuất
+Export to:,Xuất ra:
+Export:,Xuất:
+Extension,Phần mở rộng
+Extension Name,Tên phần mở rộng
+Extensions,Các phần mở rộng
+FTP Host[:Port],Máy chủ FTP[:Cổng]
+"Failed to add a product to cart by id ""%s""","Lỗi khi thêm sản phẩm bằng ID sản phẩm ""%s"""
+Failed to load %1$s.xml or %1$s.ser,Lỗi tải file %1$s.xml hoặc %1$s.ser
+Field,Trường
+Field Mapping,Ánh xạ trường
+File,File
+File Information,Thông tin file
+File name:,Tên file:
+File size should be more than 0 bytes,Kích thước file phải lớn hơn 0 byte
+Final Price,Giá cuối cùng
+Finished profile execution.,Hoàn tất loại bỏ profile.
+First Name,Họ
+First Name:,Họ:
+Firstname,Họ
+Fixed,Cố định (Fixed)
+For category,Dành cho danh mục
+For latest version visit: %s,Xem phiên bản mới nhất: %s
+For product,Cho sản phẩm
+Forgot your password?,Quên mật khẩu?
+Forgot your user name or password?,Quên tên đăng nhập hoặc mật khẩu?
+From,Từ
+Gb,Gb
+General Information,Thông tin chung
+General Section,Khu vực chung
+Get Image Base64,Get Image Base64
+Get help for this page,Tìm trợ giúp cho trang này
+Global Attribute,Thuộc tính toàn cục (Global Attribute)
+Global Record Search,Tìm bản ghi toàn cục
+Global Search,Tìm kiếm toàn cục
+"Go Today","Đến hôm nay"
+Google Base,Google Base
+Google Base Items,Google Base Items
+Grand Total,Tổng toàn bộ
+Grid (default) / List,Lưới (mặc định) / Danh sách
+Grid only,Chỉ hiển thị dạng lưới
+Group:,Nhóm:
+Guest,Khách
+HTTP (unsecure),HTTP (Không bảo mật)
+HTTPS (SSL),HTTPS (SSL)
+Help Us Keep Magento Healthy - Report All Bugs,Giúp chúng tôi giữ cho WANNABE.VN luôn chạy tốt - Hãy báo tất cả các lỗi
+"Home","Trang chủ"
+ID,ID
+ID Path,ID Path
+"IP Address","Địa chỉ IP"
+Ignore,Bỏ qua
+Image cache was cleared successfully,Bộ đệm ảnh đã được xóa thành công
+Images,Các ảnh
+"Images (.gif, .jpg, .png)","Các ảnh (.gif, .jpg, .png)"
+Images Cache,Bộ đệm ảnh (Images Cache)
+Import,Nhập
+Import Service,Nhập Service
+Import/Export,Nhập/Xuất
+Import/Export Advanced,Nhập/Xuất nâng cao
+Import/Export Profile,Nhập/Xuất Profile
+"Imported <strong>%s</strong> records","Đã nhập bản ghi (records) <strong>%s</strong>"
+In,Trong
+In Database:,Trong CSDL:
+In File:,Trong file:
+Inactive,Không kích hoạt
+Incl. Tax,Incl. Thuế
+Include,Bao gồm
+Incoming Message,Thư đến
+Individual Item,Item riêng lẻ
+Install,Cài đặt
+Install Package File,Cài đặt gói file
+"Installed As","Được cài đặt như"
+Installed Extension Info,Thông tin cài đặt phần mở rộng
+Installed Version,Phiên bản đã cài đặt
+"Installing $pkg, please wait...","Đang cài đặt gói $pkg, vui lòng đợi trong giây lát..."
+"Installing selected packages, please wait...","Đang cài đặt các gói được lựa chọn, vui lòng đợi trong giây lát..."
+Instant Payment Notification (IPN),Thông báo thanh toán thức thời (IPN)
+Interactive,Tương tác
+Interface Locale: %s,Interface Locale: %s
+Invalid Form Key,Form Key không hợp lệ
+Invalid Import Service Specified,Import Service được chọn không hợp lệ
+Invalid POST data (please check post_max_size and upload_max_filesize settings in you php.ini file),POST data không hợp lệ (please check post_max_size and upload_max_filesize settings in you php.ini file)
+Invalid URL,Sai URL
+Invalid Username or Password.,Sai tên đăng nhập hoặc mật khẩu.
+Invalid directory: %s,Sai thư mục: %s
+Invalid file: %s,File không chính xác: %s
+Invalid input data for %s => %s rate,Dữ liệu không đúng %s => %s rate
+Invalid input:,Thông tin nhập không chính xác:
+Invalid parrent block for this block,Invalid parrent block for this block
+Invalid section value,Giá trị section không chính xác
+Invalid store value,Giá trị store không chính xác
+Invalid website value,Nhập website không chính xác
+Invoice #%s comment added,Invoice #%s đã thêm nhận xét
+Invoice #%s created,Hóa đơn #%s đã được khởi tạo
+Invoice History,Nhật ký hóa đơn (Invoice History)
+Invoice Totals,Tổng số hóa đơn (Invoice)
+Invoice and shipment was successfully created.,Hoá đơn và vận chuyển đã được khởi tạo thành công.
+Invoice cancel error.,Lỗi hủy hóa đơn.
+Invoice capture error,Lỗi sao lưu hoá đơn.
+Invoice void error,Lỗi hoá đơn trống
+Invoice was successfully canceled.,Hoá đơn đã hủy thành công.
+Invoice was successfully captured,Hoá đơn sao lưu thành công
+Invoice was successfully created.,Hoá đơn được khởi tạo thành công.
+Invoice was successfully voided,Hoá đơn được làm trống thành công
+Issue Number,Số phát hành
+Issuer: %s,Nhà phát hành: %s
+Items,Items
+Kb,Kb
+Last 24 hours,24 giờ vừa qua
+"Last 5 Orders","5 Đơn hàng gần nhất"
+Last 5 Search Terms,5 từ khóa tìm gần đây nhất
+Last 7 days,7 ngày vừa qua
+Last Logged In (%s):,Lần đăng nhập cuối cùng vào (%s):
+Last Logged In:,Lần đăng nhập cuối cùng:
+Last Month,Tháng trước
+Last Name,Tên
+Last Name:,Tên:
+Lastname,Tên
+Latest Message:,Thư cuối cùng:
+Layered Navigation Indices,Layered Navigation Indices
+Layered Navigation Indices was refreshed successfully,Layered Navigation Indices was refreshed successfully
+Layered Navigation Indices were refreshed successfully,Layered Navigation Indices were refreshed successfully
+Layered Navigation indexing queue cancelled,Layered Navigation indexing queue cancelled
+Layered Navigation indexing queued,Layered Navigation indexing queued
+Layered Navigation process queued to be killed,Layered Navigation process queued to be killed
+Leave empty to use tax identifier,Leave empty to use tax identifier
+Level,Cấp bậc
+License,Bản quyền
+License URI,URI bản quyền
+License:,Bản quyền:
+Lifetime Sales,Báo cáo bán hàng
+Links,Các liên kết
+List (default) / Grid,Danh sách (mặc định) / Lưới
+List only,Chỉ hiển thị danh sách
+Load Template,Tải Template
+Load default template,Tải template mặc định
+Load local Package,Tải local Package
+"Loading...","Đang tải..."
+Local Server,Máy chủ cục bộ
+Local/Remote Server,Máy chủ Local/Remote
+Locale,Locale
+"Log Out","Đăng xuất"
+"Log in to Admin Panel","Đăng nhập trang quản trị (Admin Panel)"
+"Log into Magento Admin Page","Đăng nhập vào trang quản trị Wannabe"
+"Logged in as %s","Đăng nhập với tên %s"
+"Login","Đăng nhập"
+MAJOR,MAJOR
+MINOR,MINOR
+MS Excel XML,MS Excel XML
+Magento Admin,Quản trị Wannabe
+Magento Commerce - Administrative Panel,Wannabe - Quản trị
+Magento Connect,Kết nối Magento
+Magento Connect Manager,Quản lý kết nối Magento
+Magento Logo,Biểu tượng Wannabe
+"Magento is a trademark of Irubin Consulting Inc.","Wannabe là một thương hiệu của Wannabe Corp."
+"Magento ver. %s","Wannabe phiên bản. %s"
+"Magento&trade; is a trademark of Irubin Consulting Inc. DBA Varien.<br/>Copyright &copy; %s Irubin Consulting Inc.","Wannabe&trade; là một thương hiệu của Wannabe Corp. <br/>Bản quyền &copy; %s thuộc về Wannabe Corp."
+Maintainers,Maintainers
+Manage City,Quản lý thành phố
+Manage Currency Rates,Quản lý tỷ giá tiền tệ
+Manage Customers,Quản lý khách hàng
+Manage Installed Extensions,Quản lý các phần mở rộng được cài đặt
+Manage Ratings,Quản lý đánh giá (Ratings)
+Manage Region,Quản lý vùng
+Manage Stores,Quản lý kho hàng (Stores)
+Manage osCommerce Orders,Quản lý các đơn hàng osCommerce
+Manage osCommerce Profiles,Quản lý các profiles osCommerce
+Matched expression,Matched expression
+Max,Tối đa
+Maximum,Tối đa
+Mb,Mb
+"Media (.avi, .flv, .swf)","Media (.avi, .flv, .swf)"
+Messages Inbox,Hộp thư
+Min,Tối thiểu
+Minimum,Tối thiểu
+Most Viewed Products,Các sẩn phẩm xem nhiều nhất
+Multiple Select,Được lựa chọn nhiều mục
+My Account,Tài khoản của tôi
+N/A,N/A
+NOTICE,CHÚ Ý
+Name,Tên
+Name on Card,Tên trên thẻ
+Name on the Card: %s,Tên ghi trên thẻ: %s
+Name:,Tên:
+New Accounts,Các tài khoản mới
+New Api Key,Mã API mới
+New Customers,Các khách hàng mới
+New Email Template,Mẫu email mới
+New Extension,Phần mở rộng mới
+New Item Type,Loại Item mới
+New Password,Mật khẩu mới
+New Profile,Profile mới
+New Store View,Store View mới
+New System Template,System Template mới
+New Tag,Tag mới
+New Template,Template mới
+New User,Người dùng mới
+New Website,Trang web mới
+New admin password,Mật khẩu amin mới
+Next month (hold for menu),Tháng tới (giữ menu)
+Next page,Trang tiếp
+Next year (hold for menu),Năm tới(Giữ menu)
+No,Không
+No (price without tax),Không (Giá chưa bao gồm thuế)
+No Data Found,Không tìm thấy dữ liệu
+No Extensions Found,Không tìm thấy phần mở rộng
+No Templates Found,Không tìm thấy Templates
+No change,Giữ nguyên
+No profile,Không có profile
+No profile loaded...,Không tải được profile...
+No records found for this period.,Không tìm thấy bản ghi phù hợp.
+No records found.,Không tìm thấy bản ghi.
+No search keywords.,Không tìm thấy từ khóa.
+No search modules registered,Không có tìm kiếm modules nào được đăng ký
+None,Không có
+Note:,Ghi chú:
+Notes,Các ghi chú
+Notes:,Các ghi chú:
+Number of Orders,Số lượng đặt hàng
+Number of Use,Số lượng sử dụng
+Number of Uses,Số lượng sử dụng
+Number of records:,Số lượng bản ghi:
+Old rate:,Giá cũ:
+One of options row has error,Một trong các dòng tuỳ chọn bị lỗi
+"Only attributes with scope ""Global"", input type ""Dropdown"" and Use To Create Configurable Product ""Yes"" are available.","Only attributes with scope ""Global"", input type ""Dropdown"" and Use To Create Configurable Product ""Yes"" are available."
+Only mapped fields,Chỉ dành cho các trường được map
+Optional,Tùy chọn
+Options,Các tùy chọn
+"Order #%s","Đặt hàng #%s"
+"Order #%s (%s)","Đặt hàng #%s (%s)"
+Order Totals,Tổng số đơn hàng
+Order confirmation email not sent,Email xác nhận đặt hàng không được gửi.
+Order confirmation email sent,Email xác nhận đặt hàng đã được gửi
+"Order not longer exist","Đơn hàng không còn tồn tại"
+"Order not longer exist.","Đơn hàng không còn tồn tại."
+Orders,Các đơn hàng
+Original Magento attribute names in first row:,Tên thuộc tính Wannabe nguyên thuỷ trong dòng đầu tiên:
+PEAR Configuration was successfully saved,Cấu hình PEAR đã được lưu thành công
+PEAR Console,PEAR Console
+PEAR config,Cấu hình PEAR
+PHP Version,Phiên bản PHP
+Package,Gói
+Package %s data was successfully loaded,Dữ liệu gói %s đã được tải thành công
+Package Extensions,Các gói mở rộng
+Package File Name,Tên file của gói
+Package Info,Thông tin về gói
+Package Information,Thông tin gói
+Packages,Các gói
+Page,Trang
+Parent Product Thumbnail,Thumbnail sản phẩm cha
+Passive mode,Chế độ thụ động
+Password,Mật khẩu
+Password Confirmation,Xác nhận mật khẩu
+Password:,Mật khẩu:
+"Path","Đường dẫn"
+"Path:","Đường dẫn:"
+PayPal Email,PayPal Email
+Payment Data Transfer (PDT),Truyền dữ liệu thanh toán (PDT)
+Payment method must be specified,Bắt buộc chọn hình thức thanh toán
+Pending Tags,Các Tags đang chờ
+"Pending installation...","Đang chờ cài đặt..."
+Per Item,Trên một item
+Per Order,Trên một đơn hàng
+Percent,Phần trăm
+Performed At,Diễn ra lúc
+Period,Period
+Permanent (301),Vĩnh viễn (301)
+Permissions,Phân quyền
+Personal Information,Thông tin cá nhân
+"Phone:","Điện thoại:"
+Please confirm site switching. All data that hasn\'t been saved will be lost.,Vui lòng xác nhận site chuyển đổi. Tất cả dữ liệu chưa lưu sẽ mất.
+Please enter 6 or more characters.,Vui lòng điền 6 ký tự trở lên.
+Please enter a number greater than 0 in this field.,Vui lòng điền số lớn hơn 0 vào trường này.
+Please enter a valid $ amount. For example $100.00.,Vui lòng điều số lượng chính xác $ . Ví dụ $100.00.
+Please enter a valid URL. For example http://www.example.com or www.example.com,Vui lòng điền URL chính xác. Ví dụ http://www.example.com hoặc www.example.com
+Please enter a valid URL. http:// is required,Vui lòng điền URL chính xác. Yêu cầu bao gồm http://
+Please enter a valid credit card number.,Vui lòng điền số thẻ còn hiệu lực.
+Please enter a valid date.,Vui lòng lựa chọn ngày chính xác.
+Please enter a valid email address. For example johndoe@domain.com.,Vui lòng điền email hợp lệ. Ví dụ johndoe@domain.com.
+Please enter a valid number in this field.,Vui lòng điền số hợp lệ vào trường này.
+Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.,Vui lòng điền số điện thoại hợp lệ. Ví dụ (123) 456-7890 hoặc 123-456-7890.
+Please enter a valid social security number. For example 123-45-6789.,Vui lòng điền số an sinh xã hội chính xác. Ví dụ 123-45-6789.
+Please enter a valid value from list,Vui lòng lựa chọn giá trị chính xác từ danh sách
+"Please enter a valid value, ex: 10,20,30","Vui lòng điền giá trị chính xác, VD: 10,20,30"
+Please enter a valid zip code.,Vui lòng điền zip code chính xác.
+Please enter a valid zip code. For example 90602 or 90602-1234.,Vui lòng điền zip code hợp lệ. Ví dụ 90602 or 90602-1234.
+Please enter valid password.,Vui lòng điền mật khẩu hợp lệ.
+Please fill in 'email' field.,Vui lòng điền đủ trong trường 'email'.
+Please make sure that all global admin search modules are installed and activated.,Vui lòng đảm bảo tất cả module tìm kiếm chung (global) đã được cài đặt và kích hoạt.
+Please make sure that your changes were saved before running the profile.,Vui lòng đảm bảo mọi thay đổi đã được lưu trước khi chạy profile.
+Please make sure your passwords match.,Vui lòng bảo đảm mật khẩu khớp với nhau.
+Please select State/Province.,Vui lòng lựa chọn Tỉnh/Thành.
+Please select a custmer,Vui lòng lựa chọn một khách hàng
+Please select a store,Vui lòng lựa chọn một kho hàng
+Please select an option.,Vui lòng lựa chọn một tùy chọn.
+Please select catalog searches,Vui lòng lựa chọn tìm kiếm catalog
+Please select customer(s),Vui lòng lựa chọn khách hàng(s)
+Please select one of the above options.,Vui lòng lựa chọn một trong những tùy chọn trên.
+Please select one of the options.,Vui lòng lựa chọn một trong những tùy chọn.
+Please select review(s),Vui lòng lựa chọn đánh giá
+Please select tag(s),Vui lòng chọn tag(s)
+Please specify admin custom URL,Vui lòng lựa chọn tùy chọn admin URL
+Please specify at least start or end date.,Vui lòng lựa chọn ít nhất là ngày bắt đầu hoặc kết thúc.
+"Please use in this field only ""a-z,0-9,_"".","Vui lòng chỉ sử dụng các chữ hoặc số bao gồm ""a-z,0-9,_""."
+Please use letters only (a-z) in this field.,Vui lòng chỉ sử dụng chữ (a-z) trong trường này.
+Please use numbers only in this field. please avoid spaces or other characters such as dots or commas.,"Vui lòng chỉ sử dụng số trong trường này. Tránh ký tự đặc biệt như dấu cách, dấu phẩy hoặc dấu chấm."
+Please use only letters (a-z) or numbers (0-9) only in this field. No spaces or other characters are allowed.,Vui lòng chỉ sửu dụng chữ (a-z) hoặc các số (0-9) trong trường này. Không sử dụng dấu cách hoặc ký tự đặc biệt khác.
+Please use only letters (a-z) or numbers (0-9) or spaces and # only in this field.,Vui lòng chỉ sử dụng chữ (a-z) hoặc số (0-9) hoặc dấu cách và # trong trường này.
+"Please use this date format: dd/mm/yyyy. For example 17/03/2006 for the 17th of March, 2006.",Vui lòng sử dụng định dạng ngày: dd/mm/yyyy. Ví dụ 18/06/2009 Cho ngày 18 tháng 6 năm 2009.
+"Please wait, loading...","Vui lòng đợi, đang tải..."
+Please wait...,Vui lòng đợi...
+"Please, add a few answers to this poll first","Vui lòng thêm một vài câu trả lời cho poll"
+"Please, select visible in stores to this poll first",Vui lòng lựa chọn mức hiển thị của poll
+Poll Manager,Quản lý bình chọn
+Poll was successfully deleted,Bình chọn đã được xoá thành công
+Poll was successfully saved,Bình chọn đã được lưu thành công
+Position of Watermark for %s,Vị trí của Watermark cho %s
+Preferred state,Preferred state
+"Preparing to change $pkg, please wait...","Chuẩn bị thay đổi $pkg, vui lòng chờ trong giây lát..."
+Prev. month (hold for menu),Tháng trước (Giữ menu)
+Prev. year (hold for menu),Năm trước (Giữ menu)
+Preview,Xem trước
+Preview Template,Xem trước Template
+Previous page,Trang trước
+Price,Giá
+Price alert subscription was saved successfully,Thông báo giá được lưu thành công
+Price:,Giá:
+Price Add,Giá thêm
+"Primary Billing Address","Địa chỉ thanh toán chính"
+"Processed <strong>%s%% %s/%d</strong> records","Đã xử lý bản ghi<strong>%s%% %s/%d</strong>"
+Product,Sản phẩm
+Product Thumbnail Itself,Thumbnail của chính sản phẩm
+Product:,Sản phẩm:
+Products,Các sản phẩm
+Profile Action,Profile Action
+Profile Actions XML,Profile Actions XML
+Profile Direction,Profile Direction
+Profile History,Lịch sử Profile
+Profile Information,Thông tin Profile
+Profile Name,Tên Profile
+Profile Wizard,Profile Wizard
+Profile was deleted,Profile đã được xóa
+Profile was successfully saved,Profile đã được lưu thành công
+Profiles,Profiles
+Promo,Quảng cáo (Promo)
+Promotions,Khuyến mại (Promotions)
+Provided Files,Các tập tin được cung cấp
+Qty,Slượng
+Quantity,Số lượng
+Queue Refresh,Queue Refresh
+Queued... Cancel,Đang xử lý... Hủy
+Radio Buttons,Radio Buttons
+Rates,Tỉ suất
+"Rating was successfully deleted","Đánh giá đã được xoá thành công"
+"Rating was successfully saved","Đánh giá đã được lưu thành công"
+Read details,Xem chi tiết
+Rebuild,Tái lập
+Recent Orders,Các đơn hàng gần đây
+Recommended,Gợi ý lựa chọn
+Recursive Dir,Recursive Dir
+Redirect,Redirect
+Refresh,Làm tươi
+Refresh Now*,Làm tươi bây giờ*
+Region/State,Region/State
+Release,Phát hành
+Release Info,Thông tin phát hành
+Release Stability,Release Stability
+Release Version,Phiên bản phát hành
+Remote Extension Info,Remote Extension Info
+Remote FTP,Remote FTP
+Remote URL:,Remote URL:
+Remove,Xóa
+Reports,Các báo cáo
+"Request Path","Đường dẫn yêu cầu"
+"Required","Được yêu cầu"
+Reset,Reset
+Reset Filter,Reset bộ lọc
+Resize,Thay đổi kích thước
+Resource Access,Truy xuất nguồn
+Resources,Các nguồn
+Results,Các kết quả
+Retrieve Password,Nhận mật khẩu
+Return Html Version,Phiên bản HTML trả về
+Revenue,Thu nhập
+Role,Vai trò (role)
+Role ID,Role ID
+Role Info,Role Info
+Role Information,Role Information
+Role Name,Role Name
+Role Resources,Role Resources
+Role Users,Role Users
+Role successfully deleted.,Role đã được xóa.
+Role successfully saved.,Role đã được lưu.
+Roles,Roles
+Roles Resources,Roles Resources
+Rotate CCW,Xoay ngược chiều kim đồng hồ (CCW)
+Rotate CW,Xoay theo chiều kim đồng hồ (CW)
+Run,Chạy
+Run Profile,Chạy Profile
+Run Profile In Popup,Chạy Profile trong hộp Popup
+Run Profile Inside This Window,Chạy Profile trong của sổ này
+Run in popup,Chạy trong hộp popup
+"Running... Kill","Đang chạy... Kill"
+"Running:","Đang chạy:"
+Shipping,Vận chuyển
+SKU,SKU
+SKU:,SKU:
+SSL Error: Invalid or self-signed certificate,Lỗi SSL: certificate không hợp lệ hoặc tự ký duyệt
+Sales Report,Báo cáo bán hàng
+Samples,Ví dụ mẫu
+Save,Lưu
+Save & Generate,Lưu & Tạo mới
+Save Account,Lưu tài khoản
+Save And Continue Edit,Lưu và tiếp tục chỉnh sửa
+Save As...,Lưu mới (Save as)...
+Save Config,Lưu cấu hình
+Save Currency Rates,Lưu tỷ giá tiền tệ
+Save PEAR Config,Lưu cấu hình PEAR
+Save Profile,Lưu Profile
+Save Role,Lưu Role
+Save Template,Lưu template
+Save User,Lưu người dùng
+Save and Continue Editing,Lưu và tiếp tục chỉnh sửa
+Save cache settings,Lưu các thiết lập bộ đệm
+Save data and Create Package,Lưu dữ liệu và tạo gói
+Save package with custom package file name,Lưu gói với tên gói tùy chọn
+Search,Tìm
+Search Index,Chỉ mục tìm kiếm
+Search Index was rebuilded successfully,Chỉ mục tìm kiếm được rebuild thành công
+Search Term,Từ khóa tìm kiếm
+Search Terms,Các từ khóa
+Select,Lựa chọn
+Select All,Lựa chọn tất cả
+Select Category,Lựa chọn danh mục
+Select Date,Lựa chọn ngày
+Select Range,Lựa chọn khoảng
+Select Visible,Lựa chọn hiển thị
+Select date,Lựa chọn ngày
+"Selected allow currency ""%s"" is not available in installed currencies","Đơn vị tiền tệ ""%s"" được lựa chọn không hiệu lực trong các đơn vị đã được cài đặt"
+"Selected base currency is not available in installed currencies","Đơn vị tiền tệ cơ bản được lựa chọn không có trong các đơn vị đã được cài đặt"
+"Selected default display currency is not available in allowed currencies","Đơn vị tiền tệ mặc định được lựa chọn không được phép trong các đơn vị tiền tệ được cài đặt"
+"Selected default display currency is not available in installed currencies","Đơn vị tiền tệ mặc định được lựa chọn không có trong các đơn vị tiền tệ được cài đặt"
+Sender,Người gửi
+Separate email,Email riêng biệt
+"Shipment #%s comment added","Đánh giá vận chuyển #%s được thêm vào"
+Shipment #%s created,Vận chuyển #%s được khởi tạo
+Shipment Comments,Các đánh giá vận chuyển
+Shipment History,Lịch sử vận chuyển
+Shipment was successfully created.,Vận chuyển được khởi tạo.
+Shipment was successfully sent.,Vận chuyển được gửi thành công.
+Shipping,Vận chuyển hàng
+"Shipping Address","Địa chỉ chuyển hàng"
+Shipping Price,Giá vận chuyển
+"Shipping address","Địa chỉ vận chuyển"
+"Shipping address selection is not applicable","Địa chỉ vận chuyển hàng không phù hợp"
+Shipping method must be specified,Phải lựa chọn hình thức vận chuyển
+Shipping method selection is not applicable,Hình thức vận chuyển không phù hợp
+Shipping origin,Nguồn vận chuyển
+Shopping Cart from %s,Giỏ hàng từ %s
+Show Report for,Hiển thị báo cáo cho
+Show by,Hiển thị theo
+Show reviews,Hiển thị các đánh giá
+Sitemap Information,Thông tin sơ đồ trang
+Size for %s,Kích thước cho %s
+Skip category selection,Bỏ qua lựa chọn danh mục
+Some items in this order have different invoice and shipment types. You can create shipment only after the invoice is created.,Một số mục (item) trong đơn hàng có hoá đơn và dạng vận chuyển khác nhau. Bạn chỉ có thể tạo vận chuyển sau khi đã tạo hóa đơn.
+Some of the ordered items don\'t exist in the catalog anymore and will be removed if you try to edit the order.,Một số sản phẩm bạn đặt mua không còn tồn tại trong catalog và sẽ bị loại bỏ nếu bạn cố gắng chỉnh sửa đơn hàng.
+"Sorry, this feature is coming soon...","Rất xin lỗi bạn, tính năng này sẽ có trong thời gian tới..."
+Sort Order,Sắp xếp đặt hàng
+Specific Countries,Các quốc gia cụ thể
+Spreadsheet Name:,Tên bảng tính:
+Stability,Stability
+Start Date,Ngày bắt đầu
+"Starting profile execution, please wait...","Bắt đầu huỷ Profile, vui lòng đợi..."
+State/Province:,Tỉnh/Thành:
+Status,Trạng thái
+Status:,Trạng thái:
+Stock Quantity:,Số lượng tồn kho:
+Stock notification was saved successfully,Thông báo tồn kho đã được lưu lại.
+Store,Kho hàng (Store)
+Store Email Addresses Section,Store Email Addresses Section
+Store View,Store View
+Store:,Kho hàng:
+Subject,Tiêu đề (Subject)
+Submit,Nhập
+Subpackage,Subpackage
+Subpackage can't be conflicting,Subpackage can't be conflicting
+Subpackages,Subpackages
+Subtotal,Tổng cộng
+Subtotal Amount,Tổng cộng số lượng
+Summary,Tổng kết
+Summary:,Tổng kết:
+Switch/Solo Only,Switch/Solo Only
+Switch/Solo card issue number: %s,Switch/Solo card issue number: %s
+Switch/Solo card start Date: %s/%s,Switch/Solo card start Date: %s/%s
+Switch/Solo/Maestro(UK Domestic) Only,Switch/Solo/Maestro(UK Domestic) Only
+Switch/Solo/Maestro(UK Domestic) card issue number: %s,Switch/Solo/Maestro(UK Domestic) card issue number: %s
+Switch/Solo/Maestro(UK Domestic) card start Date: %s/%s,Switch/Solo/Maestro(UK Domestic) card start Date: %s/%s
+System,Hệ thống
+System Section,Khu vực hệ thống
+Tag was successfully deleted,Tag đã được xóa
+Tag was successfully saved,Tag đã được lưu
+Tags,Tags
+Target Path,Target Path
+Tax,Thuế
+Tb,Tb
+Template,Template
+Template Content,Nội dung Template
+Template Information,Thông tin Template
+Template Name,Tên Template
+Template Subject,Tiêu đề Template
+Template Type,Loại Template
+Temporary (302),Tạm thời (302)
+Text,Văn bản (text)
+"The archive can be uncompressed with <a href=""%s"">%s</a> on Windows systems","The archive can be uncompressed with <a href=""%s"">%s</a> on Windows systems"
+The information in this tab has been changed.,Thông tin trong thẻ (tab) này đã được thay đổi.
+This account is,Tài khoản này là
+This attribute set don\'t have attributes which we can use for configurable product,Bộ thuộc tính này không có các thuộc tính khả dụng cho sản phẩm cấu hình
+This attribute shares the same value in all the stores,Thuộc tính này có giá trị như nhau tại mọi store
+This is a required field.,Trường bắt buộc.
+This product is currently disabled,Sản phẩm hiện tại đang không kích hoạt
+This section is not allowed.,Khu vực này không được cho phép.
+This tab contains invalid data. Please solve the problem before saving.,Thẻ (tab) này chứa dữ liệu không chính xác. Vui lòng kiểm tra trước khi lưu.
+This user no longer exists,Người dùng không còn tồn tại
+Thumbnail,Thumbnail
+Time selection:,Lựa chọn thời gian:
+Time:,Thời gian:
+"To","Đến"
+Toggle Editor,Toggle Editor
+Tools,Các công cụ
+Top 5 Search Terms,5 từ khóa tìm nhiều nhất
+Total,Tổng
+Total %d records found,Tổng số %d bản ghi được tìm thấy
+Total Amount,Tổng số lượng
+Total Invoiced,Tổng số có hóa đơn
+Total Order Amount,Tổng số đặt hàng
+Total Refunded,Tổng số tiền hoàn trả
+Total of %d record(s) were successfully deleted,Tổng số %d bản ghi đã được xóa
+Total of %d record(s) were successfully updated,Tổng số %d bản ghi đã được cập nhật
+Track order,Theo dõi đơn hàng
+Track this shipment,Theo dõi vận chuyển
+Tracking number %s for %s assigned,Số theo dõi %s không được gán cho %s
+Tracking number can not be empty.,Số theo dõi không được để trống.
+Transactional Emails,Transactional Emails
+Type,Loại
+Type:,Loại:
+Unable to find a poll to delete,Không thể tìm bình chọn để xóa
+Unable to find a tag to delete,Không thể tìm tag để xóa
+Unable to find a user to delete,Không thể tìm người dùng để xóa
+Unable to initialize import model,Unable to initialize import model
+Unable to save Cron expression,Không thể lưu điều kiện Cron
+Uninstall,Gỡ cài đặt
+"Uninstalling $pkg, please wait...","Đang gỡ cài đặt $pkg, vui lòng chờ trong giây lát..."
+"Uninstalling selected packages, please wait...","Đang gõ gói đã được lựa chọn, vui lòng chờ trong giây lát..."
+Unknown,Không rõ
+Unknown error,Lỗi không xác định
+Unselect All,Hủy lựa chọn tất cả
+Unselect Visible,Hủy lựa chọn hiển thị
+Update,Cập nhật
+Updated At,Cật nhật vào
+Upgrade,Cập nhật
+Upgrade All Available Packages,Cật nhật tất cả các gói có thể
+Upgrade all available packages,Cật nhật tất cả các gói có thể
+Upgrade all packages,Cập nhật tất cả các gói
+"Upgrading $pkg, please wait...","Đang cập nhật $pkg, vui lòng chờ trong giây lát..."
+"Upgrading all available packages, please wait...","Đang cập nhật tất cả các gói có thể , vui lòng chờ giây lát..."
+"Upgrading all packages, please wait...","Đang cập nhật tất cả các gói, vui lòng chờ giây lát..."
+"Upgrading selected packages, please wait...","Cập nhật gói được chọn, vui lòng chờ giây lát..."
+Upload File,Upload File
+Upload Files,Upload Files
+Upload HTTP Error,Upload HTTP Error
+Upload I/O Error,Upload I/O Error
+Upload Local File,Upload Local File
+Upload Security Error,Upload Security Error
+Upload and Install,Upload và Cài đặt
+Upload import file,Upload import file
+Upload local file:,Upload local file:
+Url Rewrite Management,Quản lý Url Rewrite
+Urlrewrite Information,Thông tin Urlrewrite
+Use Default Value,Sử dụng giá trị mặc định
+Use default,Sử dụng mặc định
+Use website,Sử dụng trang web
+User,Người dùng
+User Email,Email người dùng
+User ID,ID người dùng
+User Info,Thông tin người dùng
+User Information,Thông tin người dùng
+User Name,Tên người dùng
+User Name:,Tên người dùng:
+User Role,Vai trò người dùng (role)
+User Roles,Các vai trò người dùng
+User Roles Information,Thông tin về các vai trò người dùng
+User name,Tên người dùng
+User was successfully deleted,Người dùng đã được xóa
+User was successfully saved,Người dùng đã được lưu
+User with the same User Name or Email aleady exists,Người dùng với tên đăng nhập hoặc email đã tồn tại
+Users,Các người dùng
+Value,Giá trị
+Value Delimiter:,Phân cách giá trị:
+Version,Phiên bản
+Version:,Phiên bản:
+View,Xem
+View Actions XML,View Actions XML
+View Statistics for,Xem các trạng thái của
+Visibility:,Hiển thị:
+Warning! Empty value can cause problems with CSV format.,Cảnh báo! Giá trị trống có thể gây lỗi với định dạng CSV.
+Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?,Cảnh báo!\r\nHành động này sẽ xoá người dùng trong vai trò đã được phân định\r\nBạn có chắc không?
+Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?,Cảnh báo!\r\nHành động này sẽ xoá những người dùng trong vai trò đã được phân định\r\nBạn có chắc không?
+Warning: Please don't close window during importing/exporting data,Cảnh báo: Vui lòng không tắt của sổ này trong quá trình nhập/xuất dữ liệu
+Watermark File for %s,Watermark File for %s
+"We\'re in our typing table, coding away more features for Magento. Thank you for your patience.","We\'re in our typing table, coding away more features for Wannabe. Thank you for your patience."
+Web Section,Khu vực Web
+Web Services,Các dịch vụ web
+Web services,Các dịch vụ web
+Website,Website
+"What is this?","Đây là gì?"
+Wishlist Report,Báo cáo danh sách yêu thích
+Wrong column format,Sai định dạng cột
+Wrong tab configuration,Sai cấu hình thẻ (tab)
+XML,XML
+YTD,YTD
+Yes,Có
+Yes (only price with tax),Có (Chỉ với giá bao gồm thuế)
+You can not delete self assigned roles.,Bạn không thể xoá vai trò tự chỉ định.
+You cannot delete account of yourself,Không thể tự xoá tài khoản của bạn
+You have,Bạn có
+You have not enought permissions to login.,Bạn không đủ quyền để đăng nhập.
+You have not enought permissions to use this functionality.,Bạn không đủ quyền để sử dụng tính năng này.
+You need specify carrier.,Bạn cần lựa chọn hãng vận chuyển.
+You need to specify order items,Bạn cần lựa chọn các sản phẩm đặt hàng
+You successfully logged out.,Bạn đã đăng xuất thành công.
+Your Account has been deactivated.,Tài khoản của bạn đã được vô hiệu.
+Your answers contain duplicates.,Câu trả lời của bạn bị trùng.
+Your server PHP settings allow you to upload files not more than %s at a time. Please modify post_max_size (currently is %s) and upload_max_filesize (currently is %s) values in php.ini if you want to upload larger files.,Your server PHP settings allow you to upload files not more than %s at a time. Please modify post_max_size (currently is %s) and upload_max_filesize (currently is %s) values in php.ini if you want to upload larger files.
+Zip/Postal Code,Zip/Postal Code
+Zip/Postal Code:,Zip/Postal Code:
+"[ deleted ]","[ Đã bị xóa ]"
+"[deleted]","[Đã bị xóa]"
+b,b
+"close","Đóng"
+critical,critical
+"example: ""sitemap/"" or ""/"" for base path (path must be writeable)","Ví dụ: ""sitemap/"" hoặc ""/"" for base path (path must be writeable)"
+example: sitemap.xml,Ví dụ: sitemap.xml
+images/logo.gif,images/logo.gif
+items selected,mục (item) được chọn
+major,major
+md5sum,md5sum
+minor,minor
+notice,chú ý
+of %s pages,của %s trang
+per page,mỗi trang
+store(%s) scope,store(%s) scope
+to,đến
+website(%s) scope,website(%s) scope
+"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure Url / Base Secure Url. It is highly recommended to change this value in your Magento <a href=""%s"">configuration</a>.","{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure Url / Base Secure Url. It is highly recommended to change this value in your Wannabe <a href=""%s"">configuration</a>."

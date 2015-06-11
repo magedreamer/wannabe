@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Unicode Systems
+ * @category   Uni
+ * @package    Uni_Categorytools
+ * @copyright  Copyright (c) 2010-2011 Unicode Systems. (http://www.unicodesystems.in)
+ * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <Tools_Categorytools>
+            <version>0.4.0</version>
+        </Tools_Categorytools>
+    </modules>
+    <frontend>
+        <routers>
+            <categorytools>
+                <use>standard</use>
+                <args>
+                    <module>Tools_Categorytools</module>
+                    <frontName>categorytools</frontName>
+                </args>
+            </categorytools>
+        </routers>
+        <layout>
+            <updates>
+                <categorytools>
+                    <file>categorytools.xml</file>
+                </categorytools>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <Tools_Categorytools>
+                    <files>
+                        <default>Tools_Categorytools.csv</default>
+                    </files>
+                </Tools_Categorytools>
+            </modules>
+        </translate>
+    </frontend>
+     
+    <admin>
+        <routers>
+            <categorytools>
+                <use>admin</use>
+                <args>
+                    <module>Tools_Categorytools</module>
+                    <frontName>categorytools</frontName>
+                </args>
+            </categorytools>
+        </routers>
+    </admin>
+    
+    <adminhtml>
+	        <translate>
+            <modules>
+                <Tools_Categorytools>
+                    <files>
+                        <default>Tools_Categorytools.csv</default>
+                    </files>
+                </Tools_Categorytools>
+            </modules>
+        </translate>
+        <layout>
+            <updates>
+                <categorytools>
+                    <file>categorytools.xml</file>
+                </categorytools>
+            </updates>
+        </layout>
+    </adminhtml>
+    <global>
+        <models>
+            <categorytools>
+                <class>Tools_Categorytools_Model</class>
+                <resourceModel>categorytools_mysql4</resourceModel>
+            </categorytools>
+            <categorytools_mysql4>
+                <class>Tools_Categorytools_Model_Mysql4</class>
+                <entities>
+                    <categorytools>
+                        <table>tools_categorytools</table>
+                    </categorytools>
+                    <categorytoolsgroup>
+                        <table>tools_categorytoolsgroup</table>
+                    </categorytoolsgroup>
+                    <searchvolume>
+                         <table>catalogsearch_query</table>
+                    </searchvolume>  
+                </entities>
+            </categorytools_mysql4>
+        </models>
+        <blocks>
+            <categorytools>
+                <class>Tools_Categorytools_Block</class>
+            </categorytools>            
+        </blocks>
+        <helpers>
+            <categorytools>
+                <class>Tools_Categorytools_Helper</class>
+            </categorytools>
+        </helpers>
+        <resources>
+            <categorytools_setup>
+                <setup>
+                    <module>Tools_Categorytools</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </categorytools_setup>
+            <categorytools_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </categorytools_write>
+            <categorytools_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </categorytools_read>
+        </resources>
+        <cache>
+            <types>
+                <tools_categorytools translate="label,description" module="Categorytools">
+                    <label>Tools Categorytools Cache</label>
+                    <description>Cache Categorytools Block....</description>
+                    <tags>tools_categorytools</tags>
+                </tools_categorytools>
+            </types>
+        </cache>
+    </global>
+    <default>
+        <categorytools>
+            <categorytools>
+                <categorytools_time_delay>3000</categorytools_time_delay>
+		<categorytools_autoplay>1</categorytools_autoplay>
+                <saleoff_cachetime>60</saleoff_cachetime>
+            </categorytools>
+        </categorytools>
+    </default>
+	
+    
+</config>

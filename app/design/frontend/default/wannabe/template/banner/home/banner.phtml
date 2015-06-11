@@ -1,0 +1,29 @@
+<?php
+
+$bannerGroupCode = $this->getBannerGroupCode();
+$template='';
+$code = explode('_',$bannerGroupCode);
+if ($code):
+    switch(strtolower($code[1])):
+        case "left" :
+                $template = $this->getLayout()->createBlock('banner/banner', 'home.left.banner')->setBannerGroupCode($bannerGroupCode)->setTemplate('banner/home/left/banner.phtml')->toHtml();
+                break;
+         case "right" :
+                $template = $this->getLayout()->createBlock('banner/banner', 'home.right.banner')->setBannerGroupCode($bannerGroupCode)->setTemplate('banner/home/right/banner.phtml')->toHtml();
+                break;
+         case "center" :
+                $template = $this->getLayout()->createBlock('banner/banner', 'home.center.banner')->setBannerGroupCode($bannerGroupCode)->setTemplate('banner/home/center/banner.phtml')->toHtml();
+                break;
+        case "mid" :
+                $template = $this->getLayout()->createBlock('banner/banner', 'home.mid.banner')->setBannerGroupCode($bannerGroupCode)->setTemplate('banner/home/mid/banner.phtml')->toHtml();
+                break;
+         case "top" :
+                $template = $this->getLayout()->createBlock('banner/banner', 'home.top.banner')->setBannerGroupCode($bannerGroupCode)->setTemplate('banner/home/top/banner.phtml')->toHtml();
+                break;
+		case "khobau" :
+                $template = $this->getLayout()->createBlock('banner/banner', 'home.khobau.banner')->setBannerGroupCode($bannerGroupCode)->setTemplate('banner/home/khobau/banner.phtml')->toHtml();
+                break;
+    endswitch;
+    echo $template;
+endif;
+?>

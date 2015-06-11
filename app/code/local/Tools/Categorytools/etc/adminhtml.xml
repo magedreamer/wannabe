@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <!  <menu>
+        <tools translate="title" module="search">
+            <title>Wannabe Tools</title>
+            <sort_order>71</sort_order>
+            <children>
+                <categorytools module="categorytools">
+                    <title>categorytools</title>
+                    <sort_order>75</sort_order>
+                    <children>
+                        <categorytools module="categorytools">
+                            <title>Manage Categorytools</title>
+                            <sort_order>0</sort_order>
+                            <action>categorytools/adminhtml_categorytools</action>
+                        </categorytools>
+			<categorylist module="categorytools">
+                            <title>List all Category</title>
+                            <sort_order>1</sort_order>
+                            <action>categorytools/adminhtml_categorytools/listcategory</action>
+                        </categorylist>
+                        <categorytoolssetting module="categorytools">
+                            <title>Settings</title>
+                            <sort_order>2</sort_order>
+                            <action>adminhtml/system_config/edit/section/categorytools</action>
+                        </categorytoolssetting>
+                    </children>
+                </categorytools>
+            </children>
+        </tools>
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin module="customerorder" translate="title">
+                <children>
+                    <tools translate="title">
+                        <title>Tools Module</title>
+			<sort_order>10</sort_order>
+			<children>
+                            <categorytools translate="title">
+                                <title>categorytools</title>
+                                <sort_order>70</sort_order>
+                                <children>
+                                    <categorytools translate="title">
+                                        <title>Manage categorytools</title>
+                                        <sort_order>0</sort_order>
+                                    </categorytools>
+                                    <categorylist module="categorytools">
+                                       <title>List all Category</title>
+                                       <sort_order>1</sort_order>
+                                    </categorylist>
+                                    <categorytoolssetting translate="title">
+                                        <title>Settings</title>
+                                        <sort_order>2</sort_order>
+                                    </categorytoolssetting>
+                                </children>
+                            </categorytools>
+                        </children>
+                    </tools>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <categorytools>
+                                        <title>categorytools Settings</title>
+                                    </categorytools>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>-->
+</config>

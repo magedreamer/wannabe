@@ -1,0 +1,26 @@
+<?php
+
+$bannerGroupCode = $this->getBannerGroupCode();
+$data = $this->getDataByGroupCode($bannerGroupCode);
+$bannerGroupData = $data['group_data'];
+$template = '';
+if (count($bannerGroupData) > 0):
+    $prebaneff = $bannerGroupData->getPreBannerEffects();
+    $bannerType = $bannerGroupData->getAnimationType();
+?>
+<?php
+    if ($bannerType == 1):
+        $template = $this->getLayout()->createBlock('banner/banner', 'home.right.banner.custom')->setBannerGroupCode($bannerGroupCode)->setGroupCodeData($data)->setTemplate('banner/home/right/effects/custom.phtml')->toHtml();
+    else:
+        switch ($prebaneff) {
+            case 'Square Transition Banner':
+                $template = $this->getLayout()->createBlock('banner/banner', 'home.right.banner.strans')->setBannerGroupCode($bannerGroupCode)->setGroupCodeData($data)->setTemplate('banner/home/right/effects/strans.phtml')->toHtml();
+                break;
+            default :
+                $template = $this->getLayout()->createBlock('banner/banner', 'home.right.banner.imagesimple')->setBannerGroupCode($bannerGroupCode)->setGroupCodeData($data)->setTemplate('banner/home/right/effects/imagesimple.phtml')->toHtml();
+                break;
+        }
+    endif;
+    echo $template;
+endif;
+?>

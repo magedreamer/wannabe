@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<config>
+   <sections>
+        <payment translate="label" module="nganluong">
+            <label>Payment Methods</label>
+            <tab>sales</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>400</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+ <nganluong translate="label">
+                    <label>Thanh toán trực tuyến an toàn qua NgânLượng.vn</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>5</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <active translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </active>
+                         <mailing_address translate="label comment tooltip">
+                            <label>Địa chỉ Email tài khoản NgânLượng.vn</label>
+                            <comment><![CDATA[<a href="https://www.nganluong.vn">Cổng thanh toán trực tuyến NgânLượng.vn!</a>]]></comment>
+                            <tooltip>Địa chỉ Email tài khoản NgânLượng.vn</tooltip>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <sort_order>10</sort_order>
+                            <frontend_class>validate-email</frontend_class>
+                        </mailing_address>
+                          <checkout translate="label">
+                            <label>Địa chỉ trang checkout của NgânLượng.vn</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </checkout>
+                          <merchantID translate="label">
+                            <label>Mã website đăng ký tại NgânLượng.vn</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </merchantID>
+                          <secure_code translate="label">
+                            <label>Mật khẩu giao tiếp với NgânLượng.vn</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </secure_code>
+                        <fee_cal translate="label">
+                            <label>Website có phí vận chuyển hay không</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </fee_cal>
+                        <sort_order translate="label">
+                            <label>Sắp xếp</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </sort_order>
+                        <title translate="label">
+                            <label>Title</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </title>
+                        <return_url translate="label">
+                            <label>Địa chỉ trả về</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </return_url>
+					
+						 <affilate_code translate="label">
+                            <label>Mã chương trình liên kết (affiliate code) với NgânLượng.vn</label>
+                            <sort_order>61</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </affilate_code>
+                    </fields>
+                </nganluong>
+				 </groups>
+        </payment>
+    </sections>
+</config>

@@ -1,0 +1,530 @@
+"%s was added to your shopping cart.","%s đã được thêm vào giỏ hàng."
+"%s was successfully added to your shopping cart.","%s đã được thêm vào giỏ hàng."
+&laquo; Back to Billing Information,&laquo; Quay lại Thông tin thanh toán
+&laquo; Back to Select Addresses,&laquo; Quay lại Chọn địa chỉ
+&laquo; Back to Shopping Cart,&laquo; Quay về Giỏ hàng
+"* Required Fields","* Trường bắt buộc"
+"Add New Address","Thêm địa chỉ mới"
+"Add New Condition","Thêm điều kiện mới"
+"Add to Cart,"Cho vào Giỏ hàng"
+"Add to Compare","Thêm vào để so sánh"
+"Add to Wishlist","Thêm vào danh sách yêu thích"
+"Address","Địa chỉ"
+"Address %s of %s","Địa chỉ %s của %s"
+"After adding a product redirect to shopping cart","Sau khi thêm sản phẩm, chuyển sang Giỏ hàng"
+"Allow Guest Checkout","Cho phép Khách thanh toán"
+"Already registered?","Vui lòng đăng nhập để mua hàng nhanh chóng."
+"An error occurred in the process of payment","Lỗi xảy ra khi xử lý thanh toán"
+"Apply Coupon","Áp dụng"
+"Are you sure you would like to remove this item from the shopping cart?","Bạn có chắc muốn bỏ sản phẩm này ra khỏi giỏ hàng?"
+"Back","Trở lại"
+"Back to Shipping Information","Quay về Thông tin vận chuyển"
+"Based on your selection, you may be interested in the following items:","Có thể bạn cũng quan tâm tới các sản phẩm sau:"
+Billing Address,"Địa chỉ người mua"
+Billing Information,"Địa chỉ người mua"
+Billing Information - %s,"Địa chỉ người mua - %s"
+Can not add item to shopping cart,Không thể thêm sản phẩm vào giỏ hàng
+Can not apply coupon code.,Không thể áp dụng mã coupon.
+Can\'t open overview page,Không thể mở trang xem toàn diện
+Cancel Coupon,Huỷ
+Cannot remove item,Không thể loại bỏ sản phẩm
+Cannot update shopping cart,Không thể cập nhật giỏ hàng
+Card Verification Number Visual Reference,Card Verification Number Visual Reference
+Cart Subtotal:,Tổng giỏ hàng:
+Change,Thay đổi
+Change Billing Address,Thay đổi địa chỉ thanh toán
+Checkbox text,Checkbox text
+Checkout,Thanh toán
+Checkout Conditions,"Điều kiện thanh toán"
+Checkout Options,Các tuỳ chọn thanh toán
+Checkout Section,Phần thanh toán
+Checkout Terms and Conditions,"Điều khoản thanh toán"
+Checkout as Guest,Thanh toán với người dùng là Khách vãng lai
+Checkout as a Guest or Register,Thanh toán với người dùng có đăng ký hoặc Khách vãng lai
+Checkout Method,Khách hàng mới / Đăng nhập
+Checkout with Multiple Addresses,Thanh toán với nhiều địa chỉ
+City,Quận/Huyện
+"Click <a href=""%s"" onclick=""this.target=\'_blank\'"">here to print</a> a copy of your order confirmation.","Nhấn chuột <a href=""%s"" onclick=""this.target=\'_blank\'"">tại đây</a> để in bản sao đơn hàng của bạn."
+Close,"Đóng"
+Company,Công ty
+Condition Name,Tên điều kiện
+Condition was successfully deleted,"Điều kiện đã được xoá"
+Condition was successfully saved,"Điều kiện đã được xoá thành công"
+Configurable product image,Ảnh sản phẩm có thể cấu hình được
+Confirm Password,Xác nhận mật khẩu
+Content,Nội dung
+Content Height,Chiều cao phần nội dụng
+Content Height (css),Chiều cao nội dung (css)
+Continue,Tiếp tục
+Continue Shopping,Tiếp tục mua hàng
+Continue to Billing Information,Tiếp tục đến phần Thông tin thanh toán
+Continue to Review Your Order,Tiếp tục đến phần xem trước đơn hàng
+Continue to Shipping Information,Tiếp tục đến phần thông tin vận chuyển
+Country,Quốc gia
+"Coupon code ""%s"" is not valid.","Mã Coupon ""%s"" không chính xác."
+"Coupon code ""%s"" was applied.","Mã Coupon ""%s"" đã được áp dụng thành công."
+"Coupon code ""%s"" was applied successfully.","Mã Coupon ""%s"" đã được áp dụng."
+Coupon code was canceled successfully.,Mã Coupon đã được hủy.
+Create Billing Address,Tạo địa chỉ thanh toán
+Create Shipping Address,Tạo địa chỉ chuyển hàng
+Data saving problem,Lỗi lưu dữ liệu
+Default Billing,Mặc định thanh toán
+Default Shipping,Mặc định chuyển hàng
+Delete Condition,Xoá điều kiện
+Details,Các chi tiết
+Disable Onepage Checkout,Tắt thanh toán trên trang (Onepage Checkout)
+Disabled,Tắt
+Discount Codes,Mã giảm giá
+Display Cart Summary,Hiển thị đơn hàng
+Display Shopping Cart Sidebar,Hiển thị sidebar giỏ hàng
+Display item quantities,Hiển thị số lượng các sản phẩm
+Display number of items in cart,Hiển thị số lượng của sản phẩm trong giỏ hàng
+Easy access to your order history and status,Bạn có thể tạo mật khẩu để kiểm tra đơn hàng theo cách tiết kiệm thời gian trong lần mua tới
+Edit,Chỉnh sửa
+Edit Address,Chỉnh sửa địa chỉ
+Edit Billing Address,Chỉnh sửa địa chỉ thanh toán
+Edit Items,Chỉnh sửa các sản phẩm
+Edit Shipping Address,Chỉnh sửa địa chỉ chuyển hàng
+Edit Terms and Conditions,Chỉnh sửa điều khoản
+Edit Your Cart,Chỉnh sửa giỏ hàng của bạn
+Email Address,"Địa chỉ Email"
+"ems %s","Vận chuyển nhanh (%s ngày làm việc trừ T7 và CN):"
+Enable Terms and Conditions,Bật các điều khoản
+Enabled,Bật
+Enter a New Address,Nhập địa chỉ mới
+Enter your coupon code if you have one.,Nhập mã coupon nếu bạn có.
+Enter your destination to get a shipping estimate.,Nhập địa chỉ nhận hàng để ước tính thông tin chuyển hàng.
+Error while deleting this condition. Please try again later.,Lỗi khi xóa điều kiện này. Vui lòng thử lại sau.
+Error while saving this condition. Please try again later.,Lỗi khi lưu điều kiện này. Vui lòng thử lại sau.
+Estimate Shipping and Tax,Ước tính thông tin chuyển hàng và Thuế
+Excl. Tax,Không bao gồm thuế
+Fast and easy check out,Thông tin tài khoản sẽ tự động được tạo trong quá trình thanh toán
+Fax,Fax
+"Free Saver Priority Shipping (1-2 business days):","Miễn phí Vận chuyển nhanh (1-2 ngày làm việc):"
+"Free Saver Shipping (3-4 business days):","Miễn phí Vận chuyển (3-4 ngày làm việc):"
+"Free Saver Shipping (3-7 business days):","Miễn phí Vận chuyển (3-7 ngày làm việc):"
+"Forgot an Item?","Quên sản phẩm?"
+"Forgot your password?"," Click vào đây nếu bạn quên mật khẩu"
+Get a Quote,Lấy báo giá
+Grand Total:,Tính tổng cộng:
+Grouped product image,Ảnh của sản phẩm được nhóm
+HTML,HTML
+ID,ID
+Incl. Tax,Bao gồm thuế
+Invalid data,Dữ liệu không hợp lệ
+"Invalid email address ""%s""","Email không hợp lệ ""%s"""
+Invalid shipping method.,Hình thức vận chuyển không hợp lệ.
+Item,Sản phẩm
+Items,Sản phẩm
+Load customer quote error,Lỗi tải báo giá khách hàng
+Loading next step...,"Đang tải bước tiếp theo..."
+Login,"Đăng nhập"
+Manage Checkout Terms and Conditions,Quản lý điều khoản thanh toán
+Maximum display Recently added item(s),Tối đa hiển thị các sản phẩm mới thêm vào
+Maximum qty allowed for Shipping to multiple addresses is %s,Số lượng sản phẩm tối đa được phép trong vận chuyển đến nhiều địa chỉ %s
+"Move to Wishlist","Thêm vào <br /> yêu thích"
+My Cart,Giỏ hàng
+My Cart (%s item),Giỏ hàng của tôi (%s sản phẩm)
+My Cart (%s items),Giỏ hàng của tôi (có %s sản phẩm)
+My Cart Link,Liên kết tới giỏ hàng của tôi
+New Address,"Địa chỉ mới"
+New Condition,"Điều kiện mới"
+"normal %s","Vận chuyển Tiết Kiệm (%s ngày làm việc trừ T7 và CN):"
+"Note EMS","Đơn hàng ưu tiên Phát Chuyển Nhanh (EMS đối với các tỉnh ngoài Tp.HCM, Việt Nam)."
+"Note Free Normal","Áp dụng cho đơn hàng có giá trị từ 100.000 VNĐ tại TP.Hồ Chí Minh và 200.000 VNĐ với các tỉnh thành khác tại Việt Nam."
+"Note Free EMS","Đơn hàng ưu tiên Phát Chuyển Nhanh (EMS đối với các tỉnh/Thành Phố tại Việt Nam)."
+"Note Normal","Giải pháp vận chuyển tiết kiệm nếu bạn không cần gấp sản phẩm."
+Order #,"Đơn hàng #"
+Order Review,Kiểm tra lại đơn hàng
+Order Success,"Đặt hàng thành công"
+Other items in your order,Sản phẩm khác trong đơn hàng của bạn
+Password,Mật khẩu
+Payment Failed Email Reciever,Nhận email báo thanh toán thất bại
+Payment Failed Email Sender,Gửi email thông báo thanh toán thất bại
+Payment Failed Emails,Các email thông báo thanh toán thất bại
+Payment Failed Template,Template Thông báo thanh toán thất bại
+Payment Information,Phương thức thanh toán
+Payment Method,Phương thức thanh toán
+Payment method is not defined,Phương thức thánh toán không được định nghĩa
+Place Order,"Đặt mua"
+"Please <a href=""%s"">continue shopping</a>.","Hãy <a href=""%s"">tiếp tục mua hàng</a>."
+Please agree to all Terms and Conditions before placing the order.,"Đồng ý các điều khoản trước khi đặt hàng"
+Please agree to all Terms and Conditions before placing the orders.,Vui lòng đồng ý tất cả các điều khoản trước khi đặt hàng.
+Please enter a valid zip code. For example 90602 or 90602-1234.,Vui lòng điền zip code hợp lệ. Ví dụ 90602 hoặc 90602-1234.
+Please log in below:,Các thông tin từ lần mua hàng trước sẽ được tự động điền vào giúp bạn.
+"Please select region, state or province","Vui lòng chọn quốc gia, vùng hoặc tỉnh"
+Please select shipping address for applicable items,Vui lòng chọn địa chỉ nhận hàng phù hợp với sản phẩm
+Please select shipping methods for all addresses,Vui lòng chọn hình thức vận chuyển cho tất cả các địa chỉ nhận hàng
+Price,Giá
+Proceed to Checkout,Thực hiện thanh toán
+Product,Sản phẩm
+Product Name,Tên sản phẩm
+Product does not exist,Sản phẩm không tồn tại
+Qty,Số lượng
+Quote Lifetime (days),Thời gian hiệu lực báo giá (ngày)
+Recently added item(s),Các sản phẩm vừa thêm vào
+Register,Tiếp tục thanh toán
+Register and save time!,"Click ""Tiếp tục thanh toán"" để đến bước tiếp theo"
+Register to Create an Account,Lần đầu tiên mua hàng? 
+Register with us for future convenience:,Bạn không cần phải đăng ký để thanh toán
+Remove,Bỏ
+Remove Item,Bỏ sản phẩm
+Remove Product,Bỏ sản phẩm
+Remove item,Bỏ sản phẩm
+Review Order,&nbsp;"Kiểm tra lại đơn hàng"
+Review Order - %s,"Kiểm tra lại đơn hàng - %s"
+Sales,Bán hàng
+Save Condition,Lưu điều kiện
+Save in address book,Lưu trong sổ địa chỉ (address book)
+Select Address,Chọn địa chỉ
+Select Addresses,Chọn các địa chỉ
+Select Shipping Method,Lựa chọn phương thức chuyển hàng
+Select State/Province...,Chọn tỉnh/thành...
+Select a billing address from your address book or enter a new address.,Chọn địa chỉ thanh toán từ sổ địa chỉ của bạn hoặc nhập địa chỉ mới.
+Select a shipping address from your address book or enter a new address.,Chọn một địa chỉ từ sổ địa chỉ của bạn hoặc nhập một địa chỉ mới.
+Send Payment Failed Email Copy Method,Hình thức gửi bản sao thông báo thanh toán thất bại
+Send Payment Failed Email Copy To,Gửi bản sao email thông báo thanh toán thất bại đến
+Send to,Gửi đến
+Ship to Multiple Addresses,Gửi đến nhiều địa chỉ
+Ship to different address,Gửi đến địa chỉ khác
+Ship to this address,Chuyển hàng đến địa chỉ này
+Shipping Address,"Địa chỉ người nhận"
+Shipping Information,"Thông tin người nhận"
+Shipping Method,Phương thức vận chuyển
+Shipping Methods,Phương thức vận chuyển
+Shipping method has not been selected yet,Phương thức vận chuyển chưa được chọn
+Shipping selection is not applicable,Vận chuyển không phù hợp
+Shipping to,Gửi đến
+Shopping Cart,Giỏ hàng
+Shopping Cart Sidebar,Sidebar giỏ hàng
+Shopping Cart is Empty,Giỏ hàng trống
+Show Content as,Xem nội dung như
+Some of the products you requested are not available in the desired quantity,Một vài sản phẩm bạn muốn mua không còn đủ số lượng như yêu cầu.
+Some of the products you requested are unavailable,Một vài sản phẩm bạn yêu cầu không còn
+"Sorry, Onepage Checkout is disabled.","Xin lỗi bạn, thanh toán trên cùng trang đang tắt"
+"Sorry, guest checkout is not enabled. Please try again or contact store owner.","Xin lỗi bạn, thanh toán áp dụng cho Khách đang tắt. Bạn vui lòng liên hệ với người bán hoặc vui lòng thử lại."
+"Sorry, no quotes are available for this order at this time.","Xin lỗi bạn, báo giá cho đơn hàng hiện tại không sử dụng được."
+State/Province,Tỉnh/Thành phố
+Status,Trạng thái
+Store View,Store View
+Street Address,"Đường"
+Street Address,"Đường"
+Submitting order information...,"Đang gửi thông tin đặt hàng..."
+Subtotal,Tổng tạm
+Telephone,"Điện thoại"
+Terms and Conditions,Các điều khoản
+Terms and Conditions Information,Thông tin về các điều khoản
+Terms and conditions,Các điều khoản
+Text,Văn bản (text)
+Thank you for your purchase!,Rất cảm ơn bạn đã mua hàng!
+"There are <a href=""%s""><strong>%s items</strong></a> in your cart.","Có <a href=""%s""><strong>%s sản phẩm</strong></a> trong giỏ hàng của bạn."
+"There is <a href=""%s""><strong>1 item</strong></a> in your cart.","Có <a href=""%s""><strong>1 sản phẩm</strong></a> trong giỏ hàng của bạn."
+"There is already a customer registered using this email address","Đã có người dùng khác sử dụng địa chỉ email này"
+There was an error processing your order. Please contact us or try again later.,Có lỗi khi xử lý đơn hàng của bạn. Vui lòng liên hệ để được trợ giúp hoặc thử lại sau.
+"This condition no longer exists","Điều kiện này không còn tồn tại"
+Total,Tổng số
+Total for this address,Tổng cho địa chỉ này
+Unit Price,Giá đơn vị
+Update Qty &amp; Addresses,Cập nhật số lượng &amp; địa chỉ
+Update Shopping Cart,Cập nhật giỏ hàng
+Update Total,Cập nhật tổng cộng
+Use Billing Address,Sử dụng địa chỉ thanh toán
+We are processing your order and you will soon receive an email with details of the order. Once the order has shipped you will receive another email with a link to track its progress.,Chúng tôi đang xử lý đơn hàng của bạn và bạn sẽ nhận ngay được email thông báo chi tiết về đơn hàng. Khi chúng tôi gửi hàng, bạn sẽ nhận được một email khác cùng với đường dẫn để theo dõi quá trình này.
+You have no items in your shopping cart.,Không có sản phẩm nào trong giỏ hàng của bạn.
+You will receive an order confirmation email with details of your order and a link to track its progress.,Bạn sẽ nhận được email xác nhận đặt hàng có thông tin chi tiết về đơn hàng của bạn và đường dẫn để theo dõi.
+Your Checkout Progress,Các bước thanh toán
+Your order # is: %s,Wannabe đã nhận được đơn hàng <span class="opc-order-id">%s</span> của bạn
+"Your order # is: <a href=""%s"">%s</a>",Wannabe đã nhận được đơn hàng <a class="opc-order-id" href=""%s"">%s</a> của bạn
+Your order has been received,Wannabe.com.vn đã nhận được Đơn hàng của bạn
+Your order number is,Số đơn hàng của bạn là
+Zip/Postal Code,Mã vùng
+Male,Nam
+Female,Nữ
+osCommerce Orders,"Đơn hàng osCommerce"
+"separate by "",""","phân cách bằng "","""
+"Weight(gr)","Trọng lượng <br /> (gr)"
+Total weight:,Tổng trọng lượng:
+"Các Phương thức Vận Chuyển khác - ems==1-2","Vận chuyển Nhanh (1-2 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - ems==1 - 2","Vận chuyển Nhanh (1-2 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - normal==3-7","Vận chuyển Tiết Kiệm (3-7 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - normal==3 - 7","Vận chuyển Tiết Kiệm (3-7 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - normal==3-4","Vận chuyển Tiết Kiệm (3-4 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - normal==3 - 4","Vận chuyển Tiết Kiệm (3-4 ngày làm việc trừ T7 và CN)"
+"Đơn hàng của bạn đủ điều kiện được MIỄN PHÍ VẬN CHUYỂN - Miễn phí vận chuyển (3-4 ngày làm việc):","Miễn phí vận chuyển (3-4 ngày làm việc)"
+"Các Phương thức Vận Chuyển khác - ems==5","Vận chuyển Nhanh (5 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - normal==3-10","Vận chuyển Tiết Kiệm (3-10 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - normal==3 - 10","Vận chuyển Tiết Kiệm (3-10 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - ems==2-3","Vận chuyển Nhanh (2-3 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - ems==2 - 3","Vận chuyển Nhanh (2-3 ngày làm việc trừ T7 và CN)"
+"%s was added to your shopping cart.","%s đã được thêm vào giỏ hàng."
+"%s was successfully added to your shopping cart.","%s đã được thêm vào giỏ hàng."
+&laquo; Back to Billing Information,&laquo; Quay lại Thông tin thanh toán
+&laquo; Back to Select Addresses,&laquo; Quay lại Chọn địa chỉ
+&laquo; Back to Shopping Cart,&laquo; Quay về Giỏ hàng
+"* Required Fields","* Trường bắt buộc"
+"Add New Address","Thêm địa chỉ mới"
+"Add New Condition","Thêm điều kiện mới"
+"Add to Cart,"Cho vào Giỏ hàng"
+"Add to Compare","Thêm vào để so sánh"
+"Add to Wishlist","Thêm vào danh sách yêu thích"
+"Address","Địa chỉ"
+"Address %s of %s","Địa chỉ %s của %s"
+"After adding a product redirect to shopping cart","Sau khi thêm sản phẩm, chuyển sang Giỏ hàng"
+"Allow Guest Checkout","Cho phép Khách thanh toán"
+"Already registered?","Vui lòng đăng nhập để mua hàng nhanh chóng."
+"An error occurred in the process of payment","Lỗi xảy ra khi xử lý thanh toán"
+"Apply Coupon","Áp dụng"
+"Are you sure you would like to remove this item from the shopping cart?","Bạn có chắc muốn bỏ sản phẩm này ra khỏi giỏ hàng?"
+"Back","Trở lại"
+"Back to Shipping Information","Quay về Thông tin vận chuyển"
+"Based on your selection, you may be interested in the following items:","Có thể bạn cũng quan tâm tới các sản phẩm sau:"
+Billing Address,"Địa chỉ người mua"
+Billing Information,"Địa chỉ người mua"
+Billing Information - %s,"Địa chỉ người mua - %s"
+Can not add item to shopping cart,Không thể thêm sản phẩm vào giỏ hàng
+Can not apply coupon code.,Không thể áp dụng mã coupon.
+Can\'t open overview page,Không thể mở trang xem toàn diện
+Cancel Coupon,Huỷ
+Cannot remove item,Không thể loại bỏ sản phẩm
+Cannot update shopping cart,Không thể cập nhật giỏ hàng
+Card Verification Number Visual Reference,Card Verification Number Visual Reference
+Cart Subtotal:,Tổng giỏ hàng:
+Change,Thay đổi
+Change Billing Address,Thay đổi địa chỉ thanh toán
+Checkbox text,Checkbox text
+Checkout,Thanh toán
+Checkout Conditions,"Điều kiện thanh toán"
+Checkout Options,Các tuỳ chọn thanh toán
+Checkout Section,Phần thanh toán
+Checkout Terms and Conditions,"Điều khoản thanh toán"
+Checkout as Guest,Thanh toán với người dùng là Khách vãng lai
+Checkout as a Guest or Register,Thanh toán với người dùng có đăng ký hoặc Khách vãng lai
+Checkout Method,Khách hàng mới / Đăng nhập
+Checkout with Multiple Addresses,Thanh toán với nhiều địa chỉ
+City,Quận/Huyện
+"Click <a href=""%s"" onclick=""this.target=\'_blank\'"">here to print</a> a copy of your order confirmation.","Nhấn chuột <a href=""%s"" onclick=""this.target=\'_blank\'"">tại đây</a> để in bản sao đơn hàng của bạn."
+Close,"Đóng"
+Company,Công ty
+Condition Name,Tên điều kiện
+Condition was successfully deleted,"Điều kiện đã được xoá"
+Condition was successfully saved,"Điều kiện đã được xoá thành công"
+Configurable product image,Ảnh sản phẩm có thể cấu hình được
+Confirm Password,Xác nhận mật khẩu
+Content,Nội dung
+Content Height,Chiều cao phần nội dụng
+Content Height (css),Chiều cao nội dung (css)
+Continue,Tiếp tục
+Continue Shopping,Tiếp tục mua hàng
+Continue to Billing Information,Tiếp tục đến phần Thông tin thanh toán
+Continue to Review Your Order,Tiếp tục đến phần xem trước đơn hàng
+Continue to Shipping Information,Tiếp tục đến phần thông tin vận chuyển
+Country,Quốc gia
+"Coupon code ""%s"" is not valid.","Mã Coupon ""%s"" không chính xác."
+"Coupon code ""%s"" was applied successfully.","Mã Coupon ""%s"" đã được áp dụng."
+"Coupon code was canceled successfully.", "Mã Coupon đã được hủy."
+"Coupon code was canceled.", "Mã Coupon đã được hủy"
+Create Billing Address,Tạo địa chỉ thanh toán
+Create Shipping Address,Tạo địa chỉ chuyển hàng
+Data saving problem,Lỗi lưu dữ liệu
+Default Billing,Mặc định thanh toán
+Default Shipping,Mặc định chuyển hàng
+Delete Condition,Xoá điều kiện
+Details,Các chi tiết
+Disable Onepage Checkout,Tắt thanh toán trên trang (Onepage Checkout)
+Disabled,Tắt
+Discount Codes,Mã giảm giá
+Display Cart Summary,Hiển thị đơn hàng
+Display Shopping Cart Sidebar,Hiển thị sidebar giỏ hàng
+Display item quantities,Hiển thị số lượng các sản phẩm
+Display number of items in cart,Hiển thị số lượng của sản phẩm trong giỏ hàng
+Easy access to your order history and status,Bạn có thể tạo mật khẩu để kiểm tra đơn hàng theo cách tiết kiệm thời gian trong lần mua tới
+Edit,Chỉnh sửa
+Edit Address,Chỉnh sửa địa chỉ
+Edit Billing Address,Chỉnh sửa địa chỉ thanh toán
+Edit Items,Chỉnh sửa các sản phẩm
+Edit Shipping Address,Chỉnh sửa địa chỉ chuyển hàng
+Edit Terms and Conditions,Chỉnh sửa điều khoản
+Edit Your Cart,Chỉnh sửa giỏ hàng của bạn
+Email Address,"Địa chỉ Email"
+"ems %s","Vận chuyển nhanh (%s ngày làm việc trừ T7 và CN):"
+Enable Terms and Conditions,Bật các điều khoản
+Enabled,Bật
+Enter a New Address,Nhập địa chỉ mới
+Enter your coupon code if you have one.,Nhập mã coupon nếu bạn có.
+Enter your destination to get a shipping estimate.,Nhập địa chỉ nhận hàng để ước tính thông tin chuyển hàng.
+Error while deleting this condition. Please try again later.,Lỗi khi xóa điều kiện này. Vui lòng thử lại sau.
+Error while saving this condition. Please try again later.,Lỗi khi lưu điều kiện này. Vui lòng thử lại sau.
+Estimate Shipping and Tax,Ước tính thông tin chuyển hàng và Thuế
+Excl. Tax,Không bao gồm thuế
+Fast and easy check out,Thông tin tài khoản sẽ tự động được tạo trong quá trình thanh toán
+Fax,Fax
+"Free Saver Priority Shipping (1-2 business days):","Miễn phí Vận chuyển nhanh (1-2 ngày làm việc):"
+"Free Saver Shipping (3-4 business days):","Miễn phí Vận chuyển (3-4 ngày làm việc):"
+"Free Saver Shipping (3-7 business days):","Miễn phí Vận chuyển (3-7 ngày làm việc):"
+"Forgot an Item?","Quên sản phẩm?"
+"Forgot your password?"," Click vào đây nếu bạn quên mật khẩu"
+Get a Quote,Lấy báo giá
+Grand Total:,Tính tổng cộng:
+Grouped product image,Ảnh của sản phẩm được nhóm
+HTML,HTML
+ID,ID
+Incl. Tax,Bao gồm thuế
+Invalid data,Dữ liệu không hợp lệ
+"Invalid email address ""%s""","Email không hợp lệ ""%s"""
+Invalid shipping method.,Hình thức vận chuyển không hợp lệ.
+Item,Sản phẩm
+Items,Sản phẩm
+Load customer quote error,Lỗi tải báo giá khách hàng
+Loading next step...,"Đang tải bước tiếp theo..."
+Login,"Đăng nhập"
+Manage Checkout Terms and Conditions,Quản lý điều khoản thanh toán
+Maximum display Recently added item(s),Tối đa hiển thị các sản phẩm mới thêm vào
+Maximum qty allowed for Shipping to multiple addresses is %s,Số lượng sản phẩm tối đa được phép trong vận chuyển đến nhiều địa chỉ %s
+"Move to Wishlist","Thêm vào <br /> yêu thích"
+My Cart,Giỏ hàng
+My Cart (%s item),Giỏ hàng của tôi (%s sản phẩm)
+My Cart (%s items),Giỏ hàng của tôi (có %s sản phẩm)
+My Cart Link,Liên kết tới giỏ hàng của tôi
+New Address,"Địa chỉ mới"
+New Condition,"Điều kiện mới"
+"normal %s","Vận chuyển Tiết Kiệm (%s ngày làm việc trừ T7 và CN):"
+"Note EMS","Đơn hàng ưu tiên Phát Chuyển Nhanh (EMS đối với các tỉnh ngoài Tp.HCM, Việt Nam)."
+"Note Free Normal","Áp dụng cho đơn hàng có giá trị từ 100.000 VNĐ tại TP.Hồ Chí Minh và 200.000 VNĐ với các tỉnh thành khác tại Việt Nam."
+"Note Free EMS","Đơn hàng ưu tiên Phát Chuyển Nhanh (EMS đối với các tỉnh/Thành Phố tại Việt Nam)."
+"Note Normal","Giải pháp vận chuyển tiết kiệm nếu bạn không cần gấp sản phẩm."
+Order #,"Đơn hàng #"
+Order Review,Kiểm tra lại đơn hàng
+Order Success,"Đặt hàng thành công"
+Other items in your order,Sản phẩm khác trong đơn hàng của bạn
+Password,Mật khẩu
+Payment Failed Email Reciever,Nhận email báo thanh toán thất bại
+Payment Failed Email Sender,Gửi email thông báo thanh toán thất bại
+Payment Failed Emails,Các email thông báo thanh toán thất bại
+Payment Failed Template,Template Thông báo thanh toán thất bại
+Payment Information,Phương thức thanh toán
+Payment Method,Phương thức thanh toán
+Payment method is not defined,Phương thức thánh toán không được định nghĩa
+Place Order,"Đặt mua"
+"Please <a href=""%s"">continue shopping</a>.","Hãy <a href=""%s"">tiếp tục mua hàng</a>."
+Please agree to all Terms and Conditions before placing the order.,"Đồng ý các điều khoản trước khi đặt hàng"
+Please agree to all Terms and Conditions before placing the orders.,Vui lòng đồng ý tất cả các điều khoản trước khi đặt hàng.
+Please enter a valid zip code. For example 90602 or 90602-1234.,Vui lòng điền zip code hợp lệ. Ví dụ 90602 hoặc 90602-1234.
+Please log in below:,Các thông tin từ lần mua hàng trước sẽ được tự động điền vào giúp bạn.
+"Please select region, state or province","Vui lòng chọn quốc gia, vùng hoặc tỉnh"
+Please select shipping address for applicable items,Vui lòng chọn địa chỉ nhận hàng phù hợp với sản phẩm
+Please select shipping methods for all addresses,Vui lòng chọn hình thức vận chuyển cho tất cả các địa chỉ nhận hàng
+Price,Giá
+Proceed to Checkout,Thực hiện thanh toán
+Product,Sản phẩm
+Product Name,Tên sản phẩm
+Product does not exist,Sản phẩm không tồn tại
+Qty,Số lượng
+Quote Lifetime (days),Thời gian hiệu lực báo giá (ngày)
+Recently added item(s),Các sản phẩm vừa thêm vào
+Register,Tiếp tục thanh toán
+Register and save time!,"Click ""Tiếp tục thanh toán"" để đến bước tiếp theo"
+Register to Create an Account,Lần đầu tiên mua hàng? 
+Register with us for future convenience:,Bạn không cần phải đăng ký để thanh toán
+Remove,Bỏ
+Remove Item,Bỏ sản phẩm
+Remove Product,Bỏ sản phẩm
+Remove item,Bỏ sản phẩm
+Review Order,&nbsp;"Kiểm tra lại đơn hàng"
+Review Order - %s,"Kiểm tra lại đơn hàng - %s"
+Sales,Bán hàng
+Save Condition,Lưu điều kiện
+Save in address book,Lưu trong sổ địa chỉ (address book)
+Select Address,Chọn địa chỉ
+Select Addresses,Chọn các địa chỉ
+Select Shipping Method,Lựa chọn phương thức chuyển hàng
+Select State/Province...,Chọn tỉnh/thành...
+Select a billing address from your address book or enter a new address.,Chọn địa chỉ thanh toán từ sổ địa chỉ của bạn hoặc nhập địa chỉ mới.
+Select a shipping address from your address book or enter a new address.,Chọn một địa chỉ từ sổ địa chỉ của bạn hoặc nhập một địa chỉ mới.
+Send Payment Failed Email Copy Method,Hình thức gửi bản sao thông báo thanh toán thất bại
+Send Payment Failed Email Copy To,Gửi bản sao email thông báo thanh toán thất bại đến
+Send to,Gửi đến
+Ship to Multiple Addresses,Gửi đến nhiều địa chỉ
+Ship to different address,Gửi đến địa chỉ khác
+Ship to this address,Chuyển hàng đến địa chỉ này
+Shipping Address,"Địa chỉ người nhận"
+Shipping Information,"Thông tin người nhận"
+Shipping Method,Phương thức vận chuyển
+Shipping Methods,Phương thức vận chuyển
+Shipping method has not been selected yet,Phương thức vận chuyển chưa được chọn
+Shipping selection is not applicable,Vận chuyển không phù hợp
+Shipping to,Gửi đến
+Shopping Cart,Giỏ hàng
+Shopping Cart Sidebar,Sidebar giỏ hàng
+Shopping Cart is Empty,Giỏ hàng trống
+Show Content as,Xem nội dung như
+Some of the products you requested are not available in the desired quantity,Một vài sản phẩm bạn muốn mua không còn đủ số lượng như yêu cầu.
+Some of the products you requested are unavailable,Một vài sản phẩm bạn yêu cầu không còn
+"Sorry, Onepage Checkout is disabled.","Xin lỗi bạn, thanh toán trên cùng trang đang tắt"
+"Sorry, guest checkout is not enabled. Please try again or contact store owner.","Xin lỗi bạn, thanh toán áp dụng cho Khách đang tắt. Bạn vui lòng liên hệ với người bán hoặc vui lòng thử lại."
+"Sorry, no quotes are available for this order at this time.","Xin lỗi bạn, báo giá cho đơn hàng hiện tại không sử dụng được."
+State/Province,Tỉnh/Thành phố
+Status,Trạng thái
+Store View,Store View
+Street Address,"Đường"
+Street Address,"Đường"
+Submitting order information...,"Đang gửi thông tin đặt hàng..."
+Subtotal,Tổng tạm
+Telephone,"Điện thoại"
+Terms and Conditions,Các điều khoản
+Terms and Conditions Information,Thông tin về các điều khoản
+Terms and conditions,Các điều khoản
+Text,Văn bản (text)
+Thank you for your purchase!,Rất cảm ơn bạn đã mua hàng!
+"There are <a href=""%s""><strong>%s items</strong></a> in your cart.","Có <a href=""%s""><strong>%s sản phẩm</strong></a> trong giỏ hàng của bạn."
+"There is <a href=""%s""><strong>1 item</strong></a> in your cart.","Có <a href=""%s""><strong>1 sản phẩm</strong></a> trong giỏ hàng của bạn."
+"There is already a customer registered using this email address","Đã có người dùng khác sử dụng địa chỉ email này"
+There was an error processing your order. Please contact us or try again later.,Có lỗi khi xử lý đơn hàng của bạn. Vui lòng liên hệ để được trợ giúp hoặc thử lại sau.
+"This condition no longer exists","Điều kiện này không còn tồn tại"
+Total,Tổng số
+Total for this address,Tổng cho địa chỉ này
+Unit Price,Giá đơn vị
+Update Qty &amp; Addresses,Cập nhật số lượng &amp; địa chỉ
+Update Shopping Cart,Cập nhật giỏ hàng
+Update Total,Cập nhật tổng cộng
+Use Billing Address,Sử dụng địa chỉ thanh toán
+We are processing your order and you will soon receive an email with details of the order. Once the order has shipped you will receive another email with a link to track its progress.,Chúng tôi đang xử lý đơn hàng của bạn và bạn sẽ nhận ngay được email thông báo chi tiết về đơn hàng. Khi chúng tôi gửi hàng, bạn sẽ nhận được một email khác cùng với đường dẫn để theo dõi quá trình này.
+You have no items in your shopping cart.,Không có sản phẩm nào trong giỏ hàng của bạn.
+You will receive an order confirmation email with details of your order and a link to track its progress.,Email xác nhận Đơn hàng đã được gửi tới địa chỉ email của bạn. Nếu không thấy email trong hộp thư đến (Inbox) vui lòng kiểm tra hộp thư Spam hoặc Junk Folder.
+Your Checkout Progress,Các bước thanh toán
+Your order # is: %s,Wannabe.com.vn đã nhận được Đơn hàng <span class="opc-order-id">%s</span> của bạn
+"Your order # is: <a href=""%s"">%s</a>",Wannabe.com.vn đã nhận được Đơn hàng <a class="opc-order-id" href=""%s"">%s</a> của bạn
+Your order has been received,Wannabe.com.vn đã nhận được Đơn hàng của bạn
+Your order number is,Số đơn hàng của bạn là
+Zip/Postal Code,Mã vùng
+Male,Nam
+Female,Nữ
+osCommerce Orders,"Đơn hàng osCommerce"
+"separate by "",""","phân cách bằng "","""
+"Weight(gr)","Trọng lượng <br /> (gr)"
+Total weight:,Tổng trọng lượng:
+"Các Phương thức Vận Chuyển khác - ems==1-2","Vận chuyển Nhanh (1-2 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - ems==1 - 2","Vận chuyển Nhanh (1-2 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - normal==3-7","Vận chuyển Tiết Kiệm (3-7 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - normal==3 - 7","Vận chuyển Tiết Kiệm (3-7 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - normal==3-4","Vận chuyển Tiết Kiệm (3-4 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - normal==3-5","Vận chuyển Tiết Kiệm (3-5 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - normal==3 - 4","Vận chuyển Tiết Kiệm (3-4 ngày làm việc trừ T7 và CN)"
+"Đơn hàng của bạn đủ điều kiện được MIỄN PHÍ VẬN CHUYỂN - Miễn phí vận chuyển (3-4 ngày làm việc):","Miễn phí vận chuyển (3-4 ngày làm việc)"
+"Các Phương thức Vận Chuyển khác - ems==5","Vận chuyển Nhanh (5 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - normal==3-10","Vận chuyển Tiết Kiệm (3-10 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - normal==6-10","Vận chuyển Tiết Kiệm (6-10 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - normal==3 - 10","Vận chuyển Tiết Kiệm (3-10 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - ems==2-3","Vận chuyển Nhanh (2-3 ngày làm việc trừ T7 và CN)"
+"Các Phương thức Vận Chuyển khác - ems==2 - 3","Vận chuyển Nhanh (2-3 ngày làm việc trừ T7 và CN)"
+"Chi phí vận chuyển (Các Phương thức Vận Chuyển khác - ems==2-3)","Chi phí vận chuyển (Vận chuyển Nhanh (2 - 3 ngày làm việc trừ T7 và CN))"
+"Chi phí vận chuyển (Các Phương thức Vận Chuyển khác - normal==3-10)","Chi phí vận chuyển (Vận chuyển Tiết Kiệm (3-10 ngày làm việc trừ T7 và CN))"
+"Chi phí vận chuyển (Các Phương thức Vận Chuyển khác - normal==6-10)","Chi phí vận chuyển (Vận chuyển Tiết Kiệm (6-10 ngày làm việc trừ T7 và CN))"
+"Chi phí vận chuyển (Các Phương thức Vận Chuyển khác - ems==2-4)","Chi phí vận chuyển (Vận chuyển Nhanh (2 - 4 ngày làm việc trừ T7 và CN))"
+"Các Phương thức Vận Chuyển khác - ems==2-4","Vận chuyển Nhanh (2-4 ngày làm việc trừ T7 và CN)"
+"saved", "Đã lưu"
+"Update All Cart", "Cập nhật tất cả"
+"Your order has been received.","Bạn đã đặt hàng thành công."
+"Your order # is: %s.","Đơn hàng của bạn là: %s."
+"Click <a href=""%s"" onclick=""this.target=\'_blank\'"">here to print</a> a copy of your order confirmation.","Nhấn chuột <a href=""%s"" onclick=""this.target=\'_blank\'"">tại đây</a> để in bản sao đơn hàng của bạn."
+"Click <a href=""%s"">here</a> to continue shopping.","Click <a href=""%s"">vào đây</a> để tiếp tục mua sắm."
+"View Cart","Giỏ hàng"
